@@ -1,0 +1,1938 @@
+2025-05-16 09:51:48,392 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-16 09:51:48,392 - [33mPress CTRL+C to quit[0m
+2025-05-16 09:51:48,402 -  * Restarting with watchdog (inotify)
+2025-05-16 09:51:49,435 -  * Debugger is active!
+2025-05-16 09:51:49,443 -  * Debugger PIN: 950-730-442
+2025-05-16 09:55:18,357 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-16 09:55:18,357 - [33mPress CTRL+C to quit[0m
+2025-05-16 09:55:18,363 -  * Restarting with watchdog (inotify)
+2025-05-16 09:55:20,145 -  * Debugger is active!
+2025-05-16 09:55:20,145 -  * Debugger PIN: 950-730-442
+2025-05-16 09:55:29,798 - REQUEST - GET http://127.0.0.1:5000/ | BODY: 
+2025-05-16 09:55:29,800 - RESPONSE - GET http://127.0.0.1:5000/ | STATUS: 404 | TIME: 0.002426s | BODY: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+2025-05-16 09:55:29,801 - 127.0.0.1 - - [16/May/2025 09:55:29] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-16 09:55:29,996 - REQUEST - GET http://127.0.0.1:5000/favicon.ico | BODY: 
+2025-05-16 09:55:29,997 - RESPONSE - GET http://127.0.0.1:5000/favicon.ico | STATUS: 404 | TIME: 0.001025s | BODY: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+2025-05-16 09:55:29,997 - 127.0.0.1 - - [16/May/2025 09:55:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-16 09:55:39,734 - REQUEST - GET http://127.0.0.1:5000/scrape?q=Microsoft | BODY: 
+2025-05-16 09:56:02,643 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:56:10,975 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:56:21,688 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:56:27,744 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:56:36,128 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:56:42,322 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:56:48,795 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:56:54,967 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:57:00,743 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:57:03,346 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:57:09,202 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:57:13,453 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:57:19,415 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:57:24,943 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:57:31,531 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:57:37,678 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:57:45,243 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:57:51,210 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:57:56,962 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:58:12,470 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 09:58:12,497 - RESPONSE - GET http://127.0.0.1:5000/scrape?q=Microsoft | STATUS: 200 | TIME: 152.762811s | BODY: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub User Insights</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      padding: 2rem;
+    }
+    .user-card {
+      background: #fff;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .field {
+      margin: 0.3rem 0;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .profile-url {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .summary {
+      margin-top: 1rem;
+      white-space: pre-wrap;
+    }
+    .error {
+      color: red;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>GitHub User Insights</h1>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> microsoft</div>
+      <div class="field"><span class="label">Display Name:</span> Microsoft</div>
+      <div class="field"><span class="label">Bio:</span> Open source projects and samples from Microsoft</div>
+      <div class="field"><span class="label">Location:</span> Redmond, WA</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/microsoft" target="_blank">https://github.com/microsoft</a>
+      </div>
+
+      
+        <div class="summary">Microsoft&#39;s GitHub profile showcases the company&#39;s commitment to open-source software development and collaboration with the developer community. With a focus on sharing projects and samples, Microsoft&#39;s profile highlights its contributions and engagement with open-source technologies.
+
+Skills:
+- Microsoft&#39;s GitHub activities demonstrate a wide range of technical skills covering various programming languages, frameworks, and tools. They have expertise in C#, Python, TypeScript, C++, and PowerShell, indicating a strong presence in both the Windows and open-source ecosystems.
+- The company has extensive experience in cloud computing, with a particular emphasis on Azure, their cloud computing platform. Many of their projects relate to Azure services, showing proficiency in cloud infrastructure, machine learning, DevOps, and more.
+- Microsoft also showcases proficiency in web development, with projects related to JavaScript frameworks like React and Angular, as well as front-end tools such as TypeScript and CSS.
+- They have a strong background in software development tools and practices, including version control (Git), containers (Docker), and build systems.
+
+Experience Level:
+- Microsoft is a well-established technology company with decades of industry experience. Their GitHub profile reflects this, showcasing a vast array of projects covering different technologies, indicating a high level of expertise and a diverse range of skills.
+- The variety and complexity of the projects they have contributed to suggest a mix of senior and junior developers, with a strong emphasis on collaboration and community engagement.
+
+Technical Expertise:
+- Cloud</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> MicrosoftLearning</div>
+      <div class="field"><span class="label">Display Name:</span> Microsoft Learning</div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/MicrosoftLearning" target="_blank">https://github.com/MicrosoftLearning</a>
+      </div>
+
+      
+        <div class="summary">Microsoft Learning is a GitHub user associated with Microsoft&#39;s official training and certification division. While the profile lacks a detailed bio or location information, their pinned repositories offer insight into their primary focus and expertise.
+
+Main Skills and Technical Expertise:
+
+- **Microsoft Azure**: Microsoft Learning has numerous repositories related to Microsoft Azure, indicating a strong focus on this cloud computing platform. They offer training materials, tutorials, and hands-on labs covering various Azure services, including Azure AI, Azure DevOps, Azure Security, and Azure Architecture.
+
+- **Microsoft 365**: They also provide resources for Microsoft 365, demonstrating expertise in this suite of productivity tools. The pinned repositories cover topics such as Microsoft Teams development, SharePoint Framework, and Microsoft Graph API.
+
+- **Power Platform**: Microsoft Learning offers training content on Microsoft Power Platform, which includes Power BI, Power Apps, and Power Automate. This showcases their proficiency in low-code/no-code solutions and business analytics.
+
+- **Data Science and AI**: With repositories dedicated to data science, machine learning, and artificial intelligence, Microsoft Learning displays a solid understanding of these emerging technologies. They provide tutorials and hands-on exercises on topics like Python for data science, Azure Machine Learning, and cognitive services.
+
+- **Software Development**: While not the primary focus, Microsoft Learning also touches on software development practices. They offer guidance on DevOps, Agile practices, and secure coding principles.
+
+Experience Level</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> MicrosoftDocs</div>
+      <div class="field"><span class="label">Display Name:</span> Microsoft Docs</div>
+      <div class="field"><span class="label">Bio:</span> The modern documentation service for Microsoft</div>
+      <div class="field"><span class="label">Location:</span> Redmond, WA</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/MicrosoftDocs" target="_blank">https://github.com/MicrosoftDocs</a>
+      </div>
+
+      
+        <div class="summary">Microsoft Docs is a GitHub user representing Microsoft&#39;s modern documentation service. Based in Redmond, WA, this account is likely managed by a team of documentation specialists within Microsoft. 
+
+Skills: 
+- Technical Writing: The team&#39;s primary skill is technical writing and documentation. They are responsible for creating clear, concise, and accessible documentation for Microsoft&#39;s diverse range of products and services. 
+- Content Creation: In addition to traditional documentation, Microsoft Docs also creates tutorials, how-to guides, and other content to help users understand and utilize Microsoft products effectively. 
+- Software Documentation: The team has extensive experience documenting complex software systems, including Microsoft&#39;s operating systems, productivity suites, cloud services, and developer tools. 
+
+Experience: 
+- Industry Veterans: Given their role as Microsoft&#39;s official documentation service, the team behind Microsoft Docs likely comprises experienced technical writers and content developers. They collaborate with Microsoft&#39;s engineering and product teams to ensure accurate and up-to-date documentation. 
+- Diverse Technology Stack: Microsoft Docs has expertise in a wide range of Microsoft technologies, including Windows, Office, Azure, Visual Studio, and more. They provide comprehensive documentation for developers, IT professionals, and end-users across Microsoft&#39;s entire ecosystem. 
+
+Technical Expertise: 
+- Microsoft Technologies: Proficiency in a broad range of Microsoft technologies is evident. This includes operating systems (Windows), productivity software (Office 365), cloud computing (Azure), development tools (Visual Studio</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> Azure</div>
+      <div class="field"><span class="label">Display Name:</span> Microsoft Azure</div>
+      <div class="field"><span class="label">Bio:</span> APIs, SDKs and open source projects from Microsoft Azure</div>
+      <div class="field"><span class="label">Location:</span> United States of America</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/Azure" target="_blank">https://github.com/Azure</a>
+      </div>
+
+      
+        <div class="summary">Microsoft Azure, or simply &#34;Azure,&#34; is the cloud computing platform and online repository of Microsoft, a well-known technology corporation based in the United States. According to their bio, Azure&#39;s main focus is on providing APIs (Application Programming Interfaces), SDKs (Software Development Kits), and contributing to open-source projects. 
+
+Skills and Expertise:
+- Cloud Computing: Azure is a leader in cloud services, offering a wide range of products and services for developers and businesses, including virtual machines, storage, networking, and analytics. 
+- APIs and SDKs: They specialize in creating and providing APIs and SDKs to enable developers to interact with Azure services and integrate them into their applications. 
+- Open Source: Azure actively contributes to and supports open-source projects. They recognize the importance of open-source software in the developer community and participate in projects across various programming languages and frameworks.
+- Software Development: Azure has extensive experience in software development, offering tools and services that cater to developers, including source code hosting, continuous integration/continuous deployment (CI/CD), and application lifecycle management.
+- Security and Compliance: With a focus on cloud security, Azure offers tools for identity management, data protection, and compliance, ensuring that their services meet industry standards and regulations.
+- Data and AI: Azure provides a range of data-related services, including databases, data analytics, machine learning, and AI, enabling developers to build intelligent and data-driven applications.
+
+Experience Level</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> MicrosoftEdge</div>
+      <div class="field"><span class="label">Display Name:</span> Microsoft Edge</div>
+      <div class="field"><span class="label">Bio:</span> Microsoft Edge open source projects - demos, tools, data</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/MicrosoftEdge" target="_blank">https://github.com/MicrosoftEdge</a>
+      </div>
+
+      
+        <div class="summary">Microsoft Edge is a GitHub user representing the open-source projects related to the Microsoft Edge web browser. From their profile, it can be inferred that they are highly skilled and experienced in web browser development and associated technologies.
+
+Skills and Expertise:
+
+- Web browser engineering: The user is deeply involved in building and improving the Microsoft Edge browser, which includes rendering engines, networking stacks, JavaScript engines, and more.
+- Open-source tools and demos: They showcase their expertise by providing open-source tools, demos, and data related to web development and browser functionality. This indicates a commitment to transparency and collaboration with the wider developer community.
+- JavaScript, HTML, and CSS: These are essential technologies for web browser development, and the user is likely proficient in all three, particularly JavaScript, given its central role in browser functionality.
+- Performance optimization: Many of their projects focus on improving web performance, indicating a strong understanding of optimizing web page rendering, networking, and overall browser performance.
+- Web standards and compatibility: The user is likely well-versed in web standards and ensuring browser compatibility, as evidenced by their contributions to web platform tests and participation in web standards communities.
+- Security and privacy: With a focus on browser security and privacy, the user demonstrates knowledge of secure coding practices, encryption, and protecting user data.
+- Collaboration and community engagement: Through their open-source projects and participation in web standards communities, Microsoft Edge showcases a collaborative approach to browser development</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> Microsoft-corp</div>
+      <div class="field"><span class="label">Display Name:</span> Microsoft-Corporation</div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> Redmond, WA</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/Microsoft-corp" target="_blank">https://github.com/Microsoft-corp</a>
+      </div>
+
+      
+        <div class="summary">Microsoft-Corporation is a GitHub user representing Microsoft Corporation, a well-known technology company based in Redmond, Washington. While their GitHub profile bio is empty, their pinned repositories provide some insight into their contributions and areas of expertise. 
+
+### Main Skills and Technical Expertise:
+- **Azure and Cloud Computing**: Microsoft-corp has a strong focus on Azure, Microsoft&#39;s cloud computing platform. They have pinned multiple repositories related to Azure, including &#34;Azure-Samples&#34;, which contains code samples and documentation for various Azure services, and &#34;Azure/azure-sdk-for-net&#34;, which is the official SDK for .NET developers working with Azure. 
+- **Software Development**: They showcase a wide range of programming language proficiency, with repositories pinned for C#, Python, TypeScript, and PowerShell. The presence of repositories like &#34;microsoft-corporation/PowerShell-Docs&#34; suggests a focus on providing comprehensive documentation and samples for developers.
+- **Open Source Contributions**: Microsoft-corp actively contributes to open-source projects and promotes open-source culture. They have pinned repositories related to open-source initiatives, such as &#34;microsoft-corporation/PowerShell-Docs&#34;, which is a community repository for PowerShell documentation. 
+- **Security and Compliance**: With repositories like &#34;Azure/azure-sdk-for-net/security&#34;, which focuses on security in the Azure SDK for .NET, and &#34;Azure-Samples/azure-security-center&#34;, which provides code samples for Azure Security Center</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> microsoftarchive</div>
+      <div class="field"><span class="label">Display Name:</span> Microsoft Archive</div>
+      <div class="field"><span class="label">Bio:</span> Archived repositories - for historical interest or community forking, READ ONLY</div>
+      <div class="field"><span class="label">Location:</span> Redmond, WA</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/microsoftarchive" target="_blank">https://github.com/microsoftarchive</a>
+      </div>
+
+      
+        <div class="summary">The GitHub user &#34;microsoftarchive&#34; is a historical archive account managed by Microsoft to store and preserve outdated or obsolete code repositories that are no longer actively maintained by the company. The account is based in Redmond, WA, which is the headquarters of Microsoft.
+
+Skills and Expertise:
+
+- The user has a vast collection of archived repositories covering a wide range of Microsoft technologies, including operating systems, programming languages, software frameworks, and developer tools.
+- The archived projects showcase Microsoft&#39;s historical development practices, older versions of popular software, and discontinued projects.
+- The account demonstrates proficiency in various programming languages, such as C#, C++, Visual Basic, PowerShell, and web development languages like HTML, CSS, and JavaScript.
+- The repositories also cover a broad set of technologies, including Windows operating system internals, .NET Framework, Azure cloud services, Microsoft Office add-ins, and gaming platforms like Xbox.
+
+Experience Level:
+
+- The &#34;microsoftarchive&#34; account itself does not belong to an individual contributor, but it serves as a centralized repository of Microsoft&#39;s legacy code.
+- The archived projects reflect the collective experience and expertise of numerous Microsoft developers and engineers over the years.
+- The account showcases Microsoft&#39;s long-standing presence in the software industry and its evolution in terms of technology, design patterns, and development methodologies.
+
+Technical Expertise:
+
+- Operating Systems: Deep knowledge of Windows operating systems, including legacy versions like Windows XP, Vista,</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> microsoftgraph</div>
+      <div class="field"><span class="label">Display Name:</span> Microsoft Graph</div>
+      <div class="field"><span class="label">Bio:</span> Unified endpoint for accessing data, relationships and insights coming from the Microsoft cloud</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/microsoftgraph" target="_blank">https://github.com/microsoftgraph</a>
+      </div>
+
+      
+        <div class="summary">Microsoft Graph is a GitHub user that appears to be an official account representing the Microsoft Graph API. This user has a clear focus on the Microsoft ecosystem and its cloud services.
+
+Skills and Expertise:
+- Microsoft Graph API: This user is an expert in the Microsoft Graph API, which is a unified endpoint that provides access to data and services across the Microsoft 365 ecosystem, including Outlook, OneDrive, Microsoft Teams, and more. They likely have a deep understanding of the API&#39;s capabilities and how to leverage it to build applications and integrate with other systems.
+- Cloud Computing: With a focus on the Microsoft cloud, this user has extensive experience with cloud services and architectures. They understand how to utilize cloud platforms to store, access, and analyze data, and likely have skills in cloud security and scalability as well.
+- Data Access and Insights: Microsoft Graph emphasizes data access and insights in their bio. They are skilled in designing and implementing solutions that leverage data from various Microsoft cloud services, enabling developers to build applications with rich data integrations.
+- API Design and Documentation: Given their role in providing an API endpoint, Microsoft Graph likely has expertise in API design, documentation, and best practices. They may contribute to or maintain API specifications, SDKs, and documentation to facilitate developer adoption and usage.
+
+Experience Level:
+Microsoft Graph is likely a highly experienced user, given that it represents an official Microsoft project. The account may be managed by a team of developers and contributors,</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> Microsoft-OpenSource-Labs</div>
+      <div class="field"><span class="label">Display Name:</span> Microsoft Open Source Labs</div>
+      <div class="field"><span class="label">Bio:</span> Open Source Labs, from Microsoft with Love ♥</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/Microsoft-OpenSource-Labs" target="_blank">https://github.com/Microsoft-OpenSource-Labs</a>
+      </div>
+
+      
+        <div class="summary">Microsoft Open Source Labs is a team within Microsoft dedicated to open-source software development and collaboration. They aim to bridge the gap between Microsoft and the open-source community, fostering a more open and inclusive environment. With the motto &#34;from Microsoft with Love,&#34; they showcase their commitment to contributing to and supporting open-source projects.
+
+Skills and Expertise:
+
+- Open-Source Advocacy: The team&#39;s primary focus is on open-source software and its promotion within Microsoft and the broader development community. They advocate for open-source principles, collaboration, and community engagement.
+
+- Software Development: Microsoft Open Source Labs actively contributes to various open-source projects. Their GitHub profile showcases their involvement in projects related to cloud computing, machine learning, data science, and development tools.
+
+- Community Engagement: They emphasize community interaction and collaboration. Their GitHub profile highlights their participation in open-source events, meetups, and contributions to external open-source projects.
+
+- Technical Proficiency: The team possesses a diverse range of technical skills. Their pinned repositories and contributions demonstrate expertise in areas such as Azure (cloud computing), machine learning frameworks (ONNX, PyTorch), data science tools (Jupyter), and development platforms (VS Code).
+
+Experience Level:
+
+Microsoft Open Source Labs consists of experienced software engineers and open-source advocates. While individual team member profiles would provide more detailed experience levels, the organization&#39;s involvement in various projects and its commitment to open-source practices</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> microsoftopensource</div>
+      <div class="field"><span class="label">Display Name:</span> Microsoft Open Source</div>
+      <div class="field"><span class="label">Bio:</span> This is the open source management service account used for performing key GitHub operations on behalf of Microsoft employees and users.</div>
+      <div class="field"><span class="label">Location:</span> Redmond, WA</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/microsoftopensource" target="_blank">https://github.com/microsoftopensource</a>
+      </div>
+
+      
+        <div class="summary">Microsoft Open Source is a GitHub account managed by Microsoft as an open source management service. Based in Redmond, WA, this account is used to facilitate and perform GitHub operations on behalf of Microsoft employees and users. While the profile does not provide individual skill assessments or experience levels, it indicates that the team managing this account possesses technical expertise in open source software development and has a strong understanding of GitHub as a platform. They are likely well-versed in Microsoft technologies and may have experience collaborating with open source communities. The account&#39;s primary focus is on open source management and contributing to Microsoft&#39;s presence in the open source domain.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> OfficeDev</div>
+      <div class="field"><span class="label">Display Name:</span> Microsoft 365 Developer</div>
+      <div class="field"><span class="label">Bio:</span> Developer tools, samples, and other resources for building solutions on the Microsoft 365 platform.</div>
+      <div class="field"><span class="label">Location:</span> Redmond, WA</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/OfficeDev" target="_blank">https://github.com/OfficeDev</a>
+      </div>
+
+      
+        <div class="summary">Microsoft 365 Developer (OfficeDev) is a GitHub user profile representing Microsoft&#39;s developer team for the Microsoft 365 platform. The team is based in Redmond, WA, and focuses on providing resources for developers building solutions and applications on the Microsoft 365 ecosystem. 
+
+Skills and Expertise:
+- **Microsoft 365 Development**: The team has extensive knowledge and expertise in developing solutions specifically for Microsoft 365, including Office 365, SharePoint, Teams, and related products. 
+- **Software Development**: They provide tools, samples, and resources for software developers, indicating a strong proficiency in software engineering and application development. 
+- **API and Integration**: They emphasize API usage and integration, helping developers connect their applications with Microsoft 365 services seamlessly. 
+- **Sample Projects**: The pinned repositories include sample projects for Microsoft Graph, SharePoint Framework, Microsoft Teams apps, and Office Add-ins, showcasing their ability to provide practical guidance and code examples. 
+- **Community Engagement**: The team engages with the developer community by providing resources and participating in open-source projects, demonstrating a commitment to fostering a collaborative environment. 
+
+Experience Level:
+OfficeDev represents a team of experienced Microsoft developers and engineers. While individual team member experience levels may vary, the profile&#39;s content and resources indicate a high level of proficiency and expertise in Microsoft 365 development, with a strong focus on enabling and supporting external</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> MicrosoftCopilot</div>
+      <div class="field"><span class="label">Display Name:</span> Copilot</div>
+      <div class="field"><span class="label">Bio:</span> This organization provides access to Copilot for some accounts.</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/MicrosoftCopilot" target="_blank">https://github.com/MicrosoftCopilot</a>
+      </div>
+
+      
+        <div class="summary">Copilot, or Microsoft Copilot, is an organization on GitHub that is linked to the AI assistant and code generation tool of the same name developed by Microsoft and OpenAI. The organization&#39;s primary purpose is to provide access to Copilot for specific accounts and users.
+
+From the limited information provided, it&#39;s challenging to infer an experience level or specific technical skills. However, based on the name and the fact that it is an organization, we can assume that the entity behind it has a proficient understanding of AI technologies, natural language processing, and software development in general. The main skills associated with this profile would include:
+
+- AI and Machine Learning expertise
+- Natural Language Processing (NLP)
+- Software Development and Coding
+- Tool Integration and Accessibility
+
+The technical expertise of this organization lies in creating an innovative AI assistant tool tailored for developers, offering code suggestions, assisting with debugging, and providing comments on code. Copilot aims to enhance the productivity of programmers and improve the efficiency of the software development process.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> AzurePipelines</div>
+      <div class="field"><span class="label">Display Name:</span> Microsoft</div>
+      <div class="field"><span class="label">Bio:</span> Free cloud-hosted builds on Linux, macOS, and Windows for public and private repositories.</div>
+      <div class="field"><span class="label">Location:</span> Twitter: @AzureDevOps</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/AzurePipelines" target="_blank">https://github.com/AzurePipelines</a>
+      </div>
+
+      
+        <div class="summary">Microsoft&#39;s GitHub profile, AzurePipelines, showcases their expertise in the field of continuous integration and delivery (CI/CD). With a focus on Azure DevOps (previously known as Visual Studio Team Services), they offer free cloud-hosted builds for developers, catering to a wide range of programming languages and platforms.
+
+Skills:
+
+- Azure DevOps expertise: Proficiency in utilizing Azure DevOps (VSTS) for CI/CD pipelines, build automation, and collaboration.
+- Cross-platform compatibility: Experienced in developing and maintaining pipelines for Linux, macOS, and Windows environments.
+- Open-source contribution: Actively engaged in the open-source community, offering free services for public and private repositories.
+
+Experience Level:
+
+- Microsoft is a well-established technology company with extensive experience in software development and DevOps practices. Their AzurePipelines profile indicates a high level of expertise and proficiency in CI/CD and Azure DevOps specifically.
+
+Technical Expertise:
+
+- CI/CD and Build Automation: AzurePipelines is focused on providing seamless integration and delivery processes, helping developers automate their software builds and releases.
+- Cloud Computing: Proficient in utilizing Microsoft Azure&#39;s cloud infrastructure for hosting builds and providing scalable resources.
+- Cross-Platform Development: Experienced in creating pipelines that cater to multiple operating systems, demonstrating an understanding of Linux, macOS, and Windows-specific requirements.
+- Collaboration and Open Source: Advocates open-source contributions and provides tools to facilitate collaboration, version control</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> microsoftjulius</div>
+      <div class="field"><span class="label">Display Name:</span> microsoft julius</div>
+      <div class="field"><span class="label">Bio:</span> A Fullstack developer (Flask, Laravel, Livewire, Flutter, Reactjs)</div>
+      <div class="field"><span class="label">Location:</span> Kawempe kampala</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/microsoftjulius" target="_blank">https://github.com/microsoftjulius</a>
+      </div>
+
+      
+        <div class="summary">Microsoftjulius is a full-stack developer with a focus on web and mobile development. He is skilled in a variety of programming languages and frameworks, including Flask for backend Python development, Laravel and Livewire for PHP web applications, and Flutter and ReactJS for building mobile and web user interfaces.
+
+Based on the information provided, microsoftjulius seems to be an experienced developer, proficient in multiple technologies and tools. He likely has a strong understanding of software development practices, architecture, and design patterns, as well as a good grasp of both front-end and back-end technologies.
+
+His main technical expertise includes:
+
+- Web Development: Laravel, Livewire, Flask
+- Mobile Development: Flutter
+- Front-end Development: ReactJS
+- Programming Languages: Python, PHP, Dart (Flutter), JavaScript
+- Database Management: Likely proficient in relational databases (MySQL, PostgreSQL, etc.) and possibly NoSQL solutions, given his web development background.
+
+Microsoftjulius&#39;s experience in both front-end and back-end technologies suggests a solid understanding of full-stack development practices. He is likely well-versed in building and deploying web applications, as well as creating mobile apps with a focus on UI/UX. His skill set also indicates a good understanding of software architecture and the ability to work with multiple programming paradigms.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> MicrosoftResearch</div>
+      <div class="field"><span class="label">Display Name:</span> Microsoft Research</div>
+      <div class="field"><span class="label">Bio:</span> Microsoft Research is the research subsidiary of Microsoft Corporation dedicated to conducting both basic and applied research.</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/MicrosoftResearch" target="_blank">https://github.com/MicrosoftResearch</a>
+      </div>
+
+      
+        <div class="summary">Microsoft Research is the research arm of Microsoft Corporation, focusing on fundamental and applied research in computer science and related fields. With a global presence, Microsoft Research aims to advance state-of-the-art technologies and foster scientific innovation.
+
+Skills:
+- Microsoft Research exhibits expertise in a wide range of technical domains, including artificial intelligence, machine learning, natural language processing, computer vision, cloud computing, and software engineering.
+- They have a strong background in developing innovative solutions and contributing to open-source projects.
+- The team showcases proficiency in various programming languages and technologies, as evidenced by their diverse repository contributions.
+
+Experience Level:
+- Microsoft Research, as a subsidiary of Microsoft Corporation, possesses extensive industry experience, drawing on the expertise of numerous researchers and scientists.
+- They have been active in the tech industry for decades, with a rich history of groundbreaking research and technological advancements.
+- The team includes seasoned researchers and experts in their respective fields, ensuring a high level of proficiency and experience.
+
+Technical Expertise:
+- Artificial Intelligence (AI): Microsoft Research has a strong focus on AI, with projects covering machine learning algorithms, deep learning, natural language understanding, and computer vision.
+- Cloud Computing: They have made significant contributions to cloud computing technologies, particularly Microsoft Azure, demonstrating expertise in distributed systems, cloud infrastructure, and data management.
+- Software Engineering: The team showcases proficiency in software development, with projects spanning various programming languages, frameworks, and tools</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> DanWahlin</div>
+      <div class="field"><span class="label">Display Name:</span> Dan Wahlin</div>
+      <div class="field"><span class="label">Bio:</span> AI + Microsoft Cloud DevRel at Microsoft. 
+
+</div>
+      <div class="field"><span class="label">Location:</span> Arizona</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/DanWahlin" target="_blank">https://github.com/DanWahlin</a>
+      </div>
+
+      
+        <div class="summary">Dan Wahlin is a Microsoft employee who works as a developer advocate focusing on AI and the Microsoft Cloud. Based in Arizona, Dan has pinned a variety of repositories to his profile, showcasing his expertise and interests.
+
+Skills:
+- Dan has a strong background in web development, particularly with Microsoft technologies. He is skilled in ASP.NET, HTML5, JavaScript, and CSS.
+- He has extensive experience with front-end frameworks such as Angular, React, and Vue.js, as evidenced by his repository pins and past speaking engagements.
+- Dan is also well-versed in cloud computing, specifically Microsoft Azure. He has worked with Azure Functions, App Services, and other Azure tools, demonstrating his proficiency in cloud-native development.
+- Artificial intelligence and machine learning are key areas of interest for Dan, as indicated by his current role at Microsoft. He has experience with AI platforms and services, leveraging them for various development projects.
+
+Experience Level:
+- Dan appears to be a seasoned professional with over two decades of industry experience. He has authored multiple books, created online courses, and spoken at numerous conferences, indicating a high level of expertise and recognition in the developer community.
+- His current role at Microsoft as a DevRel (Developer Relations) advocate further underscores his advanced skills and experience.
+
+Technical Expertise:
+- Web Development: Proficient in building web applications, particularly with Microsoft&#39;s ASP.NET framework, and knowledgeable about web standards and best</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> MicrosoftGuyJFlo</div>
+      <div class="field"><span class="label">Display Name:</span> John Flores</div>
+      <div class="field"><span class="label">Bio:</span> I write for @MicrosoftDocs about Microsoft Entra focused on Zero Trust, Conditional Access, ID Protection, and device identity</div>
+      <div class="field"><span class="label">Location:</span> Columbus, Ohio, USA</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/MicrosoftGuyJFlo" target="_blank">https://github.com/MicrosoftGuyJFlo</a>
+      </div>
+
+      
+        <div class="summary">John Flores (MicrosoftGuyJFlo) is a technical writer and content creator based in Columbus, Ohio, USA. He primarily creates content related to Microsoft technologies and seems to be affiliated with Microsoft Docs. His expertise lies in the fields of cybersecurity and identity management, particularly in the context of Zero Trust architecture, conditional access, identity protection, and device identity. 
+
+Based on his profile, Flores has a strong understanding of Microsoft Entra and its associated products. He likely possesses advanced writing and communication skills, coupled with a deep technical knowledge of cybersecurity concepts. His experience level appears to be intermediate to advanced, and he specializes in translating complex technical information into accessible documentation. 
+
+His main skills include:
+- Technical Writing: Ability to create clear and concise documentation for complex technologies.
+- Cybersecurity Expertise: In-depth knowledge of Zero Trust architecture, conditional access, identity protection, and device identity management.
+- Microsoft Technologies: Proficiency in Microsoft Entra and other related products, likely including Microsoft 365, Azure, and security tools.
+- Communication: Effective communication of technical concepts to diverse audiences.
+
+Overall, John Flores (MicrosoftGuyJFlo) is a skilled technical writer and cybersecurity expert with a focus on Microsoft technologies. He likely plays an important role in creating content that helps users understand and implement complex security measures.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> MicrosoftTranslator</div>
+      <div class="field"><span class="label">Display Name:</span> Microsoft Translator</div>
+      <div class="field"><span class="label">Bio:</span> Samples and utilities for Microsoft Translator</div>
+      <div class="field"><span class="label">Location:</span> Redmond, Washington, USA</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/MicrosoftTranslator" target="_blank">https://github.com/MicrosoftTranslator</a>
+      </div>
+
+      
+        <div class="summary">Microsoft Translator is a GitHub profile representing Microsoft&#39;s machine translation service, rather than an individual user. The profile is dedicated to providing samples, tools, and resources related to the Microsoft Translator product. 
+
+Skills and Technical Expertise:
+
+- Machine Translation: The primary focus of this profile is on machine translation technology and its applications. The repositories contain code samples, APIs, and documentation to help developers integrate translation capabilities into their applications.
+- Natural Language Processing (NLP): The nature of machine translation inherently involves NLP techniques, including language understanding, part-of-speech tagging, and syntactic analysis.
+- Software Development: The repositories include code samples in various programming languages such as C#, Python, Java, and JavaScript, demonstrating how to use the Microsoft Translator APIs and SDKs. This showcases a good understanding of software development practices.
+- Cloud Computing: Microsoft Translator is a cloud-based service, and the profile provides resources for utilizing the service on Microsoft Azure. This indicates knowledge of cloud computing and related technologies.
+- Language Support: Microsoft Translator supports a wide range of languages, and the profile showcases this with examples and language-specific resources, demonstrating expertise in multilingual applications.
+
+Experience Level:
+
+As an official Microsoft profile, the experience level can be considered advanced, given the backing of a major technology company. The samples, documentation, and utilities provided are comprehensive and well-documented, suggesting a mature and established product. 
+
+Overall, the MicrosoftTranslator profile on GitHub serves as</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> MicrosoftStudentChapter</div>
+      <div class="field"><span class="label">Display Name:</span> Microsoft Learn Student Chapter, TIET</div>
+      <div class="field"><span class="label">Bio:</span> It is technical student organisation at Thapar Institute of Engineering and Technology, Patiala, Punjab, India</div>
+      <div class="field"><span class="label">Location:</span> Patiala</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/MicrosoftStudentChapter" target="_blank">https://github.com/MicrosoftStudentChapter</a>
+      </div>
+
+      
+        <div class="summary">The GitHub user &#34;MicrosoftStudentChapter&#34; is a technical student organization based at the Thapar Institute of Engineering and Technology in India. From their profile, it can be inferred that the group is focused on fostering technical skills and providing learning resources to students interested in Microsoft technologies.
+
+Skills and Expertise:
+- Technical Skills: Based on their profile, the group has a strong inclination towards Microsoft technologies and tools. This includes Microsoft Azure, Power Platform, and other Microsoft development tools. They also seem to have an interest in cloud computing and application development.
+- Experience Level: The user is likely comprised of students with varying levels of experience. While the organization itself may have more advanced members leading and mentoring others, the focus seems to be on providing resources and support for students who are beginners or intermediates in their technical journey.
+- Technical Expertise: The pinned repositories provide some insight into their areas of expertise. They seem to have a particular interest in cloud computing and its applications, with repositories focused on Azure, cloud architecture, and cloud security. They also emphasize practical projects, as seen in the &#34;Project-Guidelines&#34; repository, which aims to guide students through the project-building process.
+
+Overall, the Microsoft Learn Student Chapter at TIET seems to be a student-led organization that fosters a community for learning and exploring Microsoft technologies. Their profile indicates a focus on cloud computing, application development, and providing accessible resources to help students build their technical skills and gain practical experience.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> andrebaltieri</div>
+      <div class="field"><span class="label">Display Name:</span> Andre Baltieri</div>
+      <div class="field"><span class="label">Bio:</span> 11x Microsoft MVP</div>
+      <div class="field"><span class="label">Location:</span> São Paulo, SP - Brazil</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/andrebaltieri" target="_blank">https://github.com/andrebaltieri</a>
+      </div>
+
+      
+        <div class="summary">Andre Baltieri is an experienced software developer and architect based in São Paulo, Brazil. He is a recognized expert in the tech community, as evidenced by his 11-time Microsoft MVP award. 
+
+Baltieri&#39;s main skills lie in software development, architecture, and team leadership. He has a particular interest and expertise in Microsoft technologies, including .NET, C#, and Azure. His experience level can be inferred as senior, given the number of years he has been active in the field and the recognition he has received. 
+
+His technical expertise includes: 
+
+- **Software Development**: Proficient in C#, .NET, and Azure Functions, with a focus on building scalable and secure applications. 
+- **Cloud Computing**: Experienced with Microsoft Azure, demonstrating knowledge of cloud architecture, DevOps practices, and cloud-native development. 
+- **Open Source**: Contributes to open-source projects, showing a commitment to sharing knowledge and giving back to the community. 
+- **Data and AI**: Has experience with data-related technologies like Power BI and AI/ML tools, indicating an understanding of data-driven solutions. 
+- **Security**: Advocates for secure coding practices and has knowledge of security tools and best practices. 
+
+Baltieri is also likely an effective communicator and community builder, as he actively engages with others on GitHub and through his blog, sharing his knowledge and expertise with a wider audience. His profile suggests a well-rounded and respected software engineer with</div>
+      
+    </div>
+  
+</body>
+</html>
+2025-05-16 09:58:12,498 - 127.0.0.1 - - [16/May/2025 09:58:12] "GET /scrape?q=Microsoft HTTP/1.1" 200 -
+2025-05-16 10:09:04,862 - REQUEST - GET http://127.0.0.1:5000/scrape?q=CodeWhizAfsal | BODY: 
+2025-05-16 10:09:19,120 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:09:19,129 - RESPONSE - GET http://127.0.0.1:5000/scrape?q=CodeWhizAfsal | STATUS: 200 | TIME: 14.267127s | BODY: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub User Insights</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      padding: 2rem;
+    }
+    .user-card {
+      background: #fff;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .field {
+      margin: 0.3rem 0;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .profile-url {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .summary {
+      margin-top: 1rem;
+      white-space: pre-wrap;
+    }
+    .error {
+      color: red;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>GitHub User Insights</h1>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> CodeWhizAfsal</div>
+      <div class="field"><span class="label">Display Name:</span> N/A</div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/CodeWhizAfsal" target="_blank">https://github.com/CodeWhizAfsal</a>
+      </div>
+
+      
+        <div class="summary">CodeWhizAfsal is a GitHub user who appears to be a skilled and experienced software developer, based on their pinned repositories. While their profile lacks personal information, their pinned projects offer insight into their technical expertise.
+
+Skills and Expertise:
+
+- **Full-Stack Development**: CodeWhizAfsal demonstrates proficiency in full-stack development, with projects showcasing knowledge of both front-end and back-end technologies. They have worked with React, Node.js, and Express for building web applications.
+
+- **Web Development**: They have a strong grasp of web development, evident from their projects using HTML, CSS, and JavaScript. CodeWhizAfsal also understands client-side scripting and has worked with jQuery.
+
+- **Database Management**: Experience with MongoDB and MySQL indicates a solid understanding of database management systems. They have designed and implemented databases for their projects.
+
+- **Version Control**: Proficiency in using Git for version control is evident, as they have been actively using GitHub to manage and collaborate on projects.
+
+- **API Integration**: CodeWhizAfsal has worked with APIs, including Google Maps API and Twilio API, showcasing their ability to integrate external services into their applications.
+
+Experience Level:
+
+CodeWhizAfsal&#39;s experience level can be inferred as intermediate to advanced. They have a good understanding of various technologies and have applied them in multiple projects. The diversity of their pinned repositories suggests they</div>
+      
+    </div>
+  
+</body>
+</html>
+2025-05-16 10:09:19,130 - 127.0.0.1 - - [16/May/2025 10:09:19] "GET /scrape?q=CodeWhizAfsal HTTP/1.1" 200 -
+2025-05-16 10:10:51,634 - REQUEST - GET http://127.0.0.1:5000/scrape?q=CodeWhizAfsal | BODY: 
+2025-05-16 10:11:04,215 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:11:04,222 - RESPONSE - GET http://127.0.0.1:5000/scrape?q=CodeWhizAfsal | STATUS: 200 | TIME: 12.587452s | BODY: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub User Insights</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      padding: 2rem;
+    }
+    .user-card {
+      background: #fff;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .field {
+      margin: 0.3rem 0;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .profile-url {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .summary {
+      margin-top: 1rem;
+      white-space: pre-wrap;
+    }
+    .error {
+      color: red;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>GitHub User Insights</h1>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> CodeWhizAfsal</div>
+      <div class="field"><span class="label">Display Name:</span> Afsal Majeed</div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> Kerala</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/CodeWhizAfsal" target="_blank">https://github.com/CodeWhizAfsal</a>
+      </div>
+
+      
+        <div class="summary">CodeWhizAfsal, or Afsal Majeed, is a developer based in Kerala, India, with a particular interest in web development and programming languages such as Python and JavaScript. Although their GitHub bio is empty, their pinned repositories offer some insight into their skills and experience level.
+
+Skills and Expertise:
+- Web Development: Majeed appears to have a strong foundation in web development, as evidenced by their repository &#34;Web-Development-Projects,&#34; which contains a collection of projects built using HTML, CSS, and JavaScript. They also have a separate repository dedicated to learning JavaScript, indicating a desire to deepen their knowledge in this area.
+- Python Programming: Majeed has a pinned repository called &#34;Python-Projects,&#34; suggesting they have experience with Python and have worked on various projects using the language. Python is a versatile language used in web development, data science, and automation.
+- Open Source Contributions: Majeed has contributed to several open-source projects on GitHub, including &#34;Python-Project-Ideas,&#34; which provides a list of project ideas for Python beginners. This demonstrates an understanding of the open-source community and a willingness to contribute to collaborative projects.
+- Machine Learning: They have also shown an interest in machine learning by contributing to the &#34;Machine-Learning-Projects&#34; repository, which contains implementations of various machine learning algorithms in Python.
+
+Experience Level:
+- Majeed&#39;s experience level can be inferred as intermediate to advanced</div>
+      
+    </div>
+  
+</body>
+</html>
+2025-05-16 10:11:04,222 - 127.0.0.1 - - [16/May/2025 10:11:04] "GET /scrape?q=CodeWhizAfsal HTTP/1.1" 200 -
+2025-05-16 10:14:40,076 - REQUEST - GET http://127.0.0.1:5000/scrape?q=Adhith | BODY: 
+2025-05-16 10:15:03,852 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:15:10,398 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:15:16,574 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:15:20,990 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:15:38,092 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:15:43,097 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:15:48,689 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:15:53,275 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:16:01,108 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:16:07,097 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:16:14,773 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:16:21,340 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:16:27,230 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:16:33,371 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:16:39,873 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:16:46,785 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:16:52,998 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:16:59,645 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:17:05,240 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:17:11,222 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-16 10:17:11,230 - RESPONSE - GET http://127.0.0.1:5000/scrape?q=Adhith | STATUS: 200 | TIME: 151.154268s | BODY: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub User Insights</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      padding: 2rem;
+    }
+    .user-card {
+      background: #fff;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .field {
+      margin: 0.3rem 0;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .profile-url {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .summary {
+      margin-top: 1rem;
+      white-space: pre-wrap;
+    }
+    .error {
+      color: red;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>GitHub User Insights</h1>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> adhith</div>
+      <div class="field"><span class="label">Display Name:</span> Adhith</div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/adhith" target="_blank">https://github.com/adhith</a>
+      </div>
+
+      
+        <div class="summary">Adhith (username: adhith) is a GitHub user who has not provided any personal information such as a bio or location. However, by analyzing their pinned repositories, we can gain some insights into their skills, experience, and areas of expertise. 
+
+Main Skills and Technical Expertise:
+- Adhith appears to have a strong background in web development, particularly in the Python ecosystem. They have pinned repositories related to web scraping using Python frameworks like Scrapy and BeautifulSoup. This suggests proficiency in extracting data from websites and manipulating HTML/XML content.
+- They also demonstrate an interest in data analysis and visualization. The pinned repositories include projects related to data wrangling with Pandas, creating data dashboards with Plotly and Dash, and working with geospatial data using Folium. These tools indicate a capacity for handling and presenting data effectively.
+- Version control and collaboration are clearly important to Adhith, as they have also pinned a repository on Git commands and best practices. This suggests a solid understanding of fundamental tools for developers and an interest in sharing knowledge with others.
+
+Experience Level:
+- It&#39;s difficult to ascertain Adhith&#39;s exact experience level without explicit information. However, the range of pinned repositories indicates a broad understanding of various aspects of software development and data handling. This could suggest that Adhith is an experienced developer with a diverse skill set. 
+
+In summary, Adhith is likely an experienced web developer and data enthusiast with a strong command</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> adhithiravi</div>
+      <div class="field"><span class="label">Display Name:</span> Adhithi Ravichandran</div>
+      <div class="field"><span class="label">Bio:</span> Software Consultant, Author, Speaker, Blogger, React, Next.js, React Native, GraphQL, Cypress and Indian Classical Musician</div>
+      <div class="field"><span class="label">Location:</span> Kansas City</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/adhithiravi" target="_blank">https://github.com/adhithiravi</a>
+      </div>
+
+      
+        <div class="summary">Adhithi Ravichandran (username: adhithiravi) is a Software Consultant and a prominent figure in the tech community with a diverse set of skills and interests. She is based in Kansas City.
+
+Skills and Expertise:
+
+- Web Development: Adhithi has a strong background in web development, particularly with React and its ecosystem. She is proficient in React, Next.js, and React Native, allowing her to build dynamic web applications and mobile apps with a focus on performance and user experience.
+- GraphQL: She has expertise in GraphQL, a query language for APIs, which provides a flexible and efficient way to fetch data for her applications.
+- Testing and Automation: Adhithi values testing and automation, as evidenced by her proficiency in Cypress, a popular end-to-end testing framework. She likely has experience building robust testing suites to ensure the quality and stability of her software projects.
+- Content Creation and Speaking: Beyond her technical skills, Adhithi is also an author, speaker, and blogger. She actively shares her knowledge and experiences with the tech community through various mediums.
+- Music: Adhithi also showcases her passion for music in her bio, identifying herself as an Indian Classical Musician.
+
+Experience Level:
+
+Adhithi&#39;s exact experience level is not specified, but her diverse set of skills and accomplishments suggest she is an experienced professional. Her proficiency in multiple technologies, combined with her roles as an author, speaker</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> adhitht</div>
+      <div class="field"><span class="label">Display Name:</span> Adhith T</div>
+      <div class="field"><span class="label">Bio:</span> Undergrad at Indian Institute of Technology, Hyderabad</div>
+      <div class="field"><span class="label">Location:</span> Hyderabad</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/adhitht" target="_blank">https://github.com/adhitht</a>
+      </div>
+
+      
+        <div class="summary">Adhith T (username: adhitht) is an undergraduate student at the Indian Institute of Technology, Hyderabad, as indicated in their GitHub profile bio. They are based in Hyderabad, India. 
+
+From their pinned repositories, it appears that Adhith T has a strong interest in machine learning and computer vision. They have pinned repositories related to projects using deep learning for image classification and object detection, suggesting that these are areas they are actively working on or are particularly proud of. 
+
+In terms of skills, Adhith T likely possesses proficiency in Python programming, as it is the primary language used in their pinned repositories. They also have experience with popular machine learning frameworks such as TensorFlow and PyTorch, as well as computer vision libraries like OpenCV. 
+
+Given their undergraduate status, Adhith T is probably an early career developer or a student with a strong foundation in machine learning and computer vision. They seem to be actively involved in personal projects and are keen on showcasing their work through their GitHub profile. 
+
+Overall, Adhith T&#39;s GitHub profile highlights their technical expertise in machine learning, deep learning, and computer vision, with a focus on image-related tasks. They are likely an aspiring developer or researcher in the field of artificial intelligence, building their skills and portfolio through hands-on projects.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> adhithyanG2003</div>
+      <div class="field"><span class="label">Display Name:</span> Adhithyan G</div>
+      <div class="field"><span class="label">Bio:</span> project planner 
+we make project for school and college students
+9655260123</div>
+      <div class="field"><span class="label">Location:</span> erode</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/adhithyanG2003" target="_blank">https://github.com/adhithyanG2003</a>
+      </div>
+
+      
+        <div class="summary">Adhithyan G (username: adhithyanG2003) is a GitHub user based in Erode who specializes in project planning and development, particularly for school and college students. In their bio, they provide a phone number, indicating their openness to collaboration or inquiries about their work. 
+
+Adhithyan&#39;s technical expertise includes programming languages such as Python, C, and Java, as well as web development frameworks like React and Django. They have experience with version control systems, as evidenced by their GitHub profile, and are likely proficient in using GitHub for collaboration and project management. 
+
+The user&#39;s pinned repositories are not visible, so it is difficult to infer their specific project contributions or current areas of focus. However, based on their bio, Adhithyan is likely an experienced planner and developer, skilled in creating projects tailored to the needs of students. Their experience level can be estimated to be intermediate to advanced, with a strong foundation in multiple programming languages and web development tools.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> ADHITHYA-CSBS</div>
+      <div class="field"><span class="label">Display Name:</span> ADHITHYA V </div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/ADHITHYA-CSBS" target="_blank">https://github.com/ADHITHYA-CSBS</a>
+      </div>
+
+      
+        <div class="summary">ADHITHYA V (ADHITHYA-CSBS) is a GitHub user with a sparse profile, providing little personal information. However, their username suggests an affiliation with the Computer Science and Bioinformatics School (CSBS). 
+
+Skills and Expertise: 
+- ADHITHYA-CSBS has a strong interest in computer science and bioinformatics, as indicated by their username and the nature of their pinned repositories. 
+- Their pinned repositories showcase a diverse range of projects, demonstrating experience with various programming languages and technologies. These include Python, MATLAB, C, and LaTeX. 
+- One of their pinned repositories, titled &#34;Machine-Learning-and-Data-Science-Projects,&#34; suggests they have experience in machine learning and data science, and likely possess skills in data analysis, algorithm development, and statistical modeling. 
+- Another repository, &#34;Python-Mini-Projects,&#34; indicates proficiency in Python programming and experience in developing small-scale applications. 
+- The user also has a repository dedicated to MATLAB programming, indicating a solid understanding of numerical computation and scientific computing. 
+
+Experience Level: 
+- It is difficult to ascertain ADHITHYA-CSBS&#39;s exact experience level due to the limited profile information. However, the variety and scope of their pinned repositories suggest they are likely an experienced programmer with a broad skill set. 
+- Their projects cover a range of topics, from basic programming exercises to more advanced machine learning applications, indicating a</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> adhithyaarun</div>
+      <div class="field"><span class="label">Display Name:</span> Adhithya Arun</div>
+      <div class="field"><span class="label">Bio:</span> I&#39;m a Software Engineer at Microsoft Turing.</div>
+      <div class="field"><span class="label">Location:</span> Bangalore | Hyderabad | Chennai | Doha</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/adhithyaarun" target="_blank">https://github.com/adhithyaarun</a>
+      </div>
+
+      
+        <div class="summary">Adhithya Arun is a Software Engineer at Microsoft Turing, as indicated in his bio. His GitHub username is &#34;adhithyaarun.&#34; Based on the information provided, Adhithya appears to be experienced in software development and engineering. He is currently located in multiple cities, including Bangalore, Hyderabad, Chennai, and Doha. 
+
+From his profile, it seems Adhithya Arun has a variety of skills and expertise in the field of software engineering. He likely possesses proficiency in various programming languages and technologies, although specific languages or projects are not mentioned in the pinned repositories or profile summary provided. 
+
+His experience level can be inferred as that of a professional, given his current role at Microsoft. This suggests he has a solid understanding of software development methodologies, algorithms, data structures, and other computer science fundamentals. 
+
+While the specific technical expertise is not explicitly listed, software engineering, algorithm design, and possibly machine learning or artificial intelligence could be among his areas of specialization, given his role at Microsoft Turing. 
+
+Overall, Adhithya Arun appears to be a skilled software engineer with a strong foundation in computer science and practical industry experience.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> Adhithya-Krishna</div>
+      <div class="field"><span class="label">Display Name:</span> N/A</div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/Adhithya-Krishna" target="_blank">https://github.com/Adhithya-Krishna</a>
+      </div>
+
+      
+        <div class="summary">Adhithya-Krishna is a GitHub user who appears to be a software developer or engineer, based on their pinned repositories. Their profile lacks personal information such as a name, bio, or location, so their experience level and specific expertise are challenging to ascertain.
+
+However, by examining their pinned repositories, we can gain some insights into their skills and areas of interest:
+
+- Adhithya-Krishna has a strong interest in web development, particularly in building responsive and interactive web applications. They have pinned repositories related to HTML, CSS, and JavaScript, indicating a solid foundation in front-end development.
+- They seem to be experienced in working with various web frameworks and libraries, including React and React Native for building user interfaces, and Node.js for server-side development.
+- The user also demonstrates an interest in mobile development, with pinned repositories related to React Native, suggesting they have skills in creating cross-platform mobile applications.
+- Adhithya-Krishna appears to be actively learning and experimenting with new technologies. They have pinned repositories related to blockchain technology, indicating an interest in decentralized applications or Web3 development.
+- Their pinned repositories also suggest an understanding of version control systems like Git and GitHub, which are essential for collaboration in software development projects.
+
+In terms of experience level, Adhithya-Krishna&#39;s profile suggests they are likely an early-career developer or a student. Their pinned repositories showcase a range of</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> adhith-c</div>
+      <div class="field"><span class="label">Display Name:</span> Adhith c</div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/adhith-c" target="_blank">https://github.com/adhith-c</a>
+      </div>
+
+      
+        <div class="summary">Adhith-c is a GitHub user with no public bio or location specified. From their username and name, we can infer that their name is Adhith C. 
+
+Adhith-c has not pinned any repositories to their profile, which suggests they are either new to GitHub or prefer to keep their project associations private. This lack of information makes it challenging to infer their skills, experience level, and technical expertise accurately. 
+
+However, by exploring Adhith-c&#39;s activity on GitHub, we may be able to gather more insights. A closer look at their contributions, such as commits, stars, and forks, could provide clues about their areas of interest and expertise. It is also possible that Adhith-c is an active contributor to open-source projects, which could indicate a certain level of proficiency and engagement within the developer community. 
+
+In summary, without additional details or activity to reference, we cannot conclusively determine Adhith-c&#39;s main skills, experience level, or technical expertise at this time.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> adhithyanmv</div>
+      <div class="field"><span class="label">Display Name:</span> Adhithyan</div>
+      <div class="field"><span class="label">Bio:</span> I am not discouraging but There are corpses on Mount Everest that were once highly motivated people.</div>
+      <div class="field"><span class="label">Location:</span> kerala</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/adhithyanmv" target="_blank">https://github.com/adhithyanmv</a>
+      </div>
+
+      
+        <div class="summary">Adhithyan (username: adhithyanmv) is a GitHub user based in Kerala, India. His profile bio hints at a pragmatic and cautious attitude towards goal-setting and motivation. 
+
+From the provided information, it&#39;s challenging to infer Adhithyan&#39;s experience level and expertise comprehensively. However, I can make some educated guesses based on typical GitHub user behaviors:
+
+Skills and Expertise:
+- Adhithyan likely possesses a range of technical skills, possibly including programming, software development, and version control (given his use of GitHub).
+- He may have a particular interest in web development or web-related technologies, as many GitHub users tend to utilize the platform for web-based projects.
+- Adhithyan might also have experience with open-source contributions, given that GitHub is a popular platform for collaborative open-source projects.
+
+Experience Level:
+- Without additional context, it&#39;s difficult to ascertain Adhithyan&#39;s precise experience level. However, the presence of pinned repositories could suggest that he is relatively active on the platform and has some level of experience with GitHub and its functionalities.
+- The quality and complexity of a user&#39;s repositories, as well as their contribution history, can often provide insights into their experience level. If Adhithyan has a substantial number of well-organized and technically impressive projects, it would suggest a higher level of expertise.
+
+Technical Expertise:
+- A detailed analysis of Adh</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> Adhithya1502</div>
+      <div class="field"><span class="label">Display Name:</span> Adhithyan</div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/Adhithya1502" target="_blank">https://github.com/Adhithya1502</a>
+      </div>
+
+      
+        <div class="summary">Adhithyan (Adhithya1502) is a GitHub user who has not provided any biographical information or location details on their profile. However, based on their username and pinned repositories, we can infer that Adhithyan is likely a software developer or programmer.
+
+Skills and Expertise:
+- Programming Languages: Adhithyan appears to be skilled in various programming languages, including Python, JavaScript, and Java. They have pinned repositories related to Python projects and web development, indicating a strong foundation in these languages.
+- Web Development: They have a particular interest or expertise in web development. One of their pinned repositories is related to creating a responsive website, suggesting knowledge of HTML, CSS, and JavaScript. They may also have experience with front-end frameworks like React, as indicated by another pinned repository.
+- Machine Learning: Adhithyan has pinned a repository related to machine learning, showing an interest or experience in this field. This suggests they have knowledge of machine learning algorithms, data processing, and potentially deep learning frameworks.
+- Problem-Solving: Adhithyan&#39;s participation in coding contests, as evidenced by one of their pinned repositories, indicates a penchant for problem-solving and algorithmic thinking. They likely possess strong analytical skills and are comfortable with data structures and algorithms.
+
+Experience Level:
+Adhithyan&#39;s exact experience level is unclear, but based on their pinned repositories, they seem to be an early-career</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> adhithyasimha</div>
+      <div class="field"><span class="label">Display Name:</span> Adhithya </div>
+      <div class="field"><span class="label">Bio:</span> You Stay The Fuck Back Or I&#39;ll Laser You God Damn It, I&#39;ll Laser Every Fucking One Of You</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/adhithyasimha" target="_blank">https://github.com/adhithyasimha</a>
+      </div>
+
+      
+        <div class="summary">Adhithya (username: adhithyasimha) appears to be an experienced and skilled software developer, despite their brief and unconventional bio. 
+
+Skills and Expertise:
+- Adhithya&#39;s pinned repositories indicate advanced knowledge of various programming languages and technologies, including Python, Java, C, and C++. 
+- They seem to have a particular interest or expertise in algorithm design and competitive programming, as suggested by the repository &#34;Competitive-Programming-Resources&#34;.
+- Adhithya is also proficient in web development, as they have repositories related to HTML, CSS, and JavaScript.
+- Additionally, they have explored machine learning and artificial intelligence, as indicated by the repository &#34;Machine-Learning-Resources&#34;. 
+
+Experience Level:
+- It&#39;s challenging to determine Adhithya&#39;s precise experience level from the provided information. Still, the range and complexity of the pinned repositories suggest a solid understanding of various concepts and tools, indicating an intermediate to advanced level of experience. 
+
+Technical Expertise:
+- Algorithm Design and Competitive Programming: Adhithya&#39;s repository &#34;Competitive-Programming-Resources&#34; showcases a collection of resources for algorithmic problems, suggesting a deep interest and proficiency in this area. 
+- Web Development: With repositories related to HTML, CSS, and JavaScript, Adhithya demonstrates a grasp of front-end web development technologies. 
+- Machine Learning and Artificial Intelligence: The &#34;Machine-Learning-Resources&#34; repository</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> adhithadias</div>
+      <div class="field"><span class="label">Display Name:</span> Adhitha Dias</div>
+      <div class="field"><span class="label">Bio:</span> ECE Grad Student
+Purdue University</div>
+      <div class="field"><span class="label">Location:</span> West Lafayette, Indiana</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/adhithadias" target="_blank">https://github.com/adhithadias</a>
+      </div>
+
+      
+        <div class="summary">Adhitha Dias is an Electrical and Computer Engineering graduate student at Purdue University, located in West Lafayette, Indiana. Although their GitHub profile does not provide extensive details about their professional experience, their educational background indicates a solid foundation in electrical and computer engineering.
+
+Skills and Expertise:
+
+- Electrical and Computer Engineering: As an ECE graduate student, Adhitha likely possesses knowledge in a wide range of topics, including digital systems design, signal processing, electronics, and computer programming.
+- Python: Based on their pinned repositories, Adhitha has experience with Python programming. Their projects involve using Python for data analysis, machine learning, and web development.
+- Machine Learning: Adhitha has an interest and some experience in machine learning, as evident from their pinned repositories. They have worked on projects related to natural language processing (NLP) and computer vision, demonstrating an understanding of supervised learning algorithms and deep learning frameworks.
+- Web Development: Adhitha has explored web development, particularly with Python-based web frameworks like Django. They have worked on a project for building a blog using Django, HTML, and CSS.
+- Data Analysis: Adhitha has skills in data analysis and visualization, as shown by their projects. They have used Python libraries like Pandas, Matplotlib, and Seaborn for data manipulation and visualization.
+
+Experience Level:
+
+Adhitha&#39;s experience level appears to be early career or entry-level. Their profile does not indicate extensive</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> Adhithan007</div>
+      <div class="field"><span class="label">Display Name:</span> Adhithan</div>
+      <div class="field"><span class="label">Bio:</span> 3rd year Student, B.Tech CSE-AI @Amrita 
+Vishwa Vidyapeetham, Coimbatore</div>
+      <div class="field"><span class="label">Location:</span> Coimbatore</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/Adhithan007" target="_blank">https://github.com/Adhithan007</a>
+      </div>
+
+      
+        <div class="summary">Adhithan (Adhithan007) is a third-year undergraduate student pursuing a B.Tech degree in Computer Science and Engineering with a concentration in AI at Amrita Vishwa Vidyapeetham, Coimbatore. Based on the information provided, Adhithan is likely an aspiring software developer or computer science professional in the early stages of their career. Their technical expertise and skills include:
+
+- Programming Languages: Adhithan is likely proficient in various programming languages, with a focus on those commonly used in AI and machine learning, such as Python, C/C++, and possibly Java.
+- Artificial Intelligence: With a concentration in AI, Adhithan likely has a strong interest and some experience in machine learning, deep learning, natural language processing, or computer vision.
+- Software Development: They probably possess fundamental software development skills, including version control (as evidenced by their GitHub profile), basic algorithm design, and problem-solving abilities.
+- Tools and Frameworks: Adhithan may have experience with popular AI frameworks such as TensorFlow, PyTorch, or Keras, as well as software development tools like IDEs, debugging tools, and version control systems (Git).
+- Problem-Solving: As a computer science student, Adhithan likely has a good foundation in data structures, algorithms, and problem-solving techniques, which are essential skills for any aspiring software developer.
+
+Overall, Adhithan appears to be an</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> Pseurae</div>
+      <div class="field"><span class="label">Display Name:</span> Adhith Chand Thiruvath</div>
+      <div class="field"><span class="label">Bio:</span> Indian kid who comes from underneath your bed.</div>
+      <div class="field"><span class="label">Location:</span> India</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/Pseurae" target="_blank">https://github.com/Pseurae</a>
+      </div>
+
+      
+        <div class="summary">Adhith Chand Thiruvath (Pseurae) is a GitHub user based in India. His bio adds a playful touch, describing himself as an &#34;Indian kid who comes from underneath your bed.&#34; 
+
+While his bio is creative and fun, Adhith seems to be a skilled and experienced individual in the realm of computer science and software development. He hasn&#39;t provided extensive details about his professional experience or specific projects he&#39;s contributed to, but his pinned repositories offer some insight into his skills and areas of interest: 
+
+- Technical Proficiency: Adhith appears to be well-versed in various programming languages and technologies, including Python, HTML/CSS, JavaScript, and Bash scripting. He also has experience with version control systems like Git and GitHub, as evidenced by his profile and repository contributions. 
+- Machine Learning and AI Interest: He has pinned a repository titled &#34;AI-ML-Stuff,&#34; suggesting an interest and some experience in artificial intelligence and machine learning. This repository contains code snippets and resources related to natural language processing, computer vision, and reinforcement learning. 
+- Web Development: He has pinned a repository related to web development, indicating proficiency in front-end web technologies. This includes HTML, CSS, and JavaScript, along with some knowledge of frameworks like React and Bootstrap. 
+- Scripting and Automation: Adhith&#39;s repository &#34;Shell-Scripts&#34; showcases his experience with Bash scripting and automation. This suggests he has skills in creating efficient scripts to automate</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> adhithyakrishna</div>
+      <div class="field"><span class="label">Display Name:</span> Adhithyakrishna Kovai Srinivasan</div>
+      <div class="field"><span class="label">Bio:</span> I am passionate software engineer with three years of work experience in building scalable full stack web applications.</div>
+      <div class="field"><span class="label">Location:</span> United States</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/adhithyakrishna" target="_blank">https://github.com/adhithyakrishna</a>
+      </div>
+
+      
+        <div class="summary">Adhithyakrishna Kovai Srinivasan (GitHub username: adhithyakrishna) is a passionate software engineer based in the United States. With three years of work experience, Adhithya primarily focuses on building scalable full-stack web applications. 
+
+Skills and Expertise:
+- Full-Stack Development: Adhithya has a strong grasp of full-stack technologies, which includes both front-end and back-end development. He is likely proficient in HTML, CSS, JavaScript, and related frameworks for the front end, and server-side languages like Node.js, Python, or Java for the back end. 
+- Scalability and Performance: One of Adhithya&#39;s key strengths is building scalable applications. This indicates a good understanding of architecture design, performance optimization, and handling high-traffic loads. 
+- Web Technologies: As a web application developer, Adhithya is well-versed in web-related technologies, frameworks, and tools. This includes web development frameworks like React, Angular, or Vue.js, and web servers such as Apache or Nginx. 
+- Software Engineering Practices: Adhithya follows software engineering best practices, as evidenced by his emphasis on scalability and three years of professional experience. This likely includes version control (Git), testing and debugging, agile methodologies, and clean code principles. 
+- Collaboration and Communication: A software engineer who is passionate and experienced in working with teams is likely to be adept</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> Adhithya-Pinghley</div>
+      <div class="field"><span class="label">Display Name:</span> N/A</div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/Adhithya-Pinghley" target="_blank">https://github.com/Adhithya-Pinghley</a>
+      </div>
+
+      
+        <div class="summary">Adhithya-Pinghley is a GitHub user who has not provided any personal information such as a name, bio, or location. However, their username suggests that they may go by the name Adhithya Pinghley.
+
+In terms of skills and expertise, I can infer the following based on their pinned repositories:
+
+1. **Machine Learning and Data Science**: Adhithya appears to have a strong interest in machine learning and data science. They have pinned repositories related to various machine learning projects, including a fraud detection system and a recommendation system. They also have repositories related to data analysis and visualization, indicating proficiency in working with data.
+
+2. **Programming Languages**: Adhithya has pinned repositories that showcase their work in various programming languages, including Python, Java, and MATLAB. They seem to be particularly experienced in Python, as most of their projects are developed using this language.
+
+3. **Experience Level**: It is difficult to ascertain Adhithya&#39;s exact experience level without any explicit information. However, the variety and complexity of the projects in their pinned repositories suggest that they have a good level of experience and expertise in the field of machine learning and data science. They appear to be comfortable with different aspects of the development lifecycle, from data processing to model training and deployment.
+
+4. **Technical Expertise**: In addition to machine learning and data science, Adhithya has demonstrated technical expertise in software development, version control (based</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> Adhithya-Laxman</div>
+      <div class="field"><span class="label">Display Name:</span> Adhithya Laxman </div>
+      <div class="field"><span class="label">Bio:</span> &#34;Whatever the mind can conceive and believe, it can achieve&#34;</div>
+      <div class="field"><span class="label">Location:</span> Coimbatore, India</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/Adhithya-Laxman" target="_blank">https://github.com/Adhithya-Laxman</a>
+      </div>
+
+      
+        <div class="summary">Adhithya Laxman is a GitHub user based in Coimbatore, India, who appears to be an experienced and skilled software developer, judging from their profile and pinned repositories. 
+
+**Skills &amp; Expertise:**
+- Adhithya&#39;s pinned repositories indicate proficiency in Python, JavaScript, and Java. They also seem to have a good understanding of web development, machine learning, and data science. 
+- Their repositories related to web development frameworks like React and Django showcase their front-end and back-end development skills. 
+- In the field of machine learning, Adhithya has worked on projects involving computer vision and natural language processing (NLP), demonstrating their ability to apply ML techniques to real-world problems. 
+- Adhithya also has experience with data analysis and visualization tools like Pandas and Matplotlib, as well as version control systems such as Git. 
+
+**Experience Level:**
+- It&#39;s difficult to ascertain Adhithya&#39;s exact experience level, but based on the variety and complexity of their pinned repositories, they seem to be at least an intermediate-level developer with a solid grasp of multiple technologies. 
+- The presence of multiple collaborative projects on their profile suggests they have worked with teams and have experience contributing to open-source projects. 
+
+**Technical Expertise:**
+- Web Development: Adhithya has expertise in building web applications, as evidenced by their work with React and Django. They seem comfortable with both front</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> adhithya-varshan</div>
+      <div class="field"><span class="label">Display Name:</span> Adhithya varshan</div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> madurai,india</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/adhithya-varshan" target="_blank">https://github.com/adhithya-varshan</a>
+      </div>
+
+      
+        <div class="summary">Adhithya varshan (username: adhithya-varshan) is a GitHub user based in Madurai, India. While their profile does not include a detailed bio or self-description, their username and pinned repositories suggest they are likely skilled in computer science and software development. 
+
+Adhithya&#39;s pinned repositories indicate their interest and experience in several technical areas: 
+
+- **Python Programming**: They have pinned a repository titled &#34;Python Programs&#34;, suggesting a solid understanding of the Python programming language. This repository contains various scripts and small projects, showcasing their practical knowledge in this domain. 
+
+- **Web Development**: Another pinned repository, &#34;Website-Development&#34;, indicates familiarity with web development concepts. This repository appears to be a collection of resources and projects related to building websites, possibly using HTML, CSS, and JavaScript. 
+
+- **Machine Learning**: The presence of a pinned repository named &#34;Machine-Learning&#34; implies that Adhithya has an interest and some experience in this field. It likely contains projects or tutorials related to machine learning algorithms, data science, and artificial intelligence. 
+
+- **Problem-Solving and Algorithms**: Adhithya&#39;s repository &#34;HackerRank-Solutions&#34; suggests they are actively practicing algorithmic problem-solving skills, possibly through competitive programming platforms like HackerRank. This demonstrates their willingness to learn, improve, and showcase their problem-solving abilities. 
+
+Based on the available information, Adhithya varshan seems to be</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> adhithyankrishna</div>
+      <div class="field"><span class="label">Display Name:</span> ADITHYAN M</div>
+      <div class="field"><span class="label">Bio:</span> I am computer Science student , like to work more python</div>
+      <div class="field"><span class="label">Location:</span> coimbatore , india </div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/adhithyankrishna" target="_blank">https://github.com/adhithyankrishna</a>
+      </div>
+
+      
+        <div class="summary">ADITHYAN M (username: adhithyankrishna) is a computer science student located in Coimbatore, India. He has a strong interest in Python programming, as indicated by his bio &#34;I am a computer science student, like to work more python.&#34;
+
+Skills:
+- Python Programming: ADITHYAN M&#39;s main skill appears to be Python programming. He likely possesses knowledge of the language&#39;s fundamentals and may have experience with various libraries and frameworks commonly used in the Python ecosystem.
+
+Experience Level:
+- Student: ADITHYAN M identifies himself as a computer science student, suggesting that he is currently pursuing an education in the field and may have a good theoretical understanding of computer science concepts, including algorithms, data structures, and software development practices.
+
+Technical Expertise:
+- Python Ecosystem: Based on his stated interest in Python, ADITHYAN M likely has experience with various tools and frameworks within the Python ecosystem. This could include web development frameworks like Django or Flask, data analysis libraries such as Pandas or Numpy, or even machine learning frameworks such as TensorFlow or PyTorch.
+- Software Development: As a computer science student, ADITHYAN M is likely familiar with software development methodologies, version control systems (such as GitHub), and may have worked on personal or academic projects.
+
+Pinned Repositories:
+ADITHYAN M has not pinned any repositories to his profile, so it is difficult to infer specific project experience or technical</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> kkadhith</div>
+      <div class="field"><span class="label">Display Name:</span> Adhith Karthikeyan</div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/kkadhith" target="_blank">https://github.com/kkadhith</a>
+      </div>
+
+      
+        <div class="summary">Adhith Karthikeyan (kkadhith) is a GitHub user with a diverse set of skills and experience in the fields of software development and machine learning. While their profile does not include a bio or location, their pinned repositories provide insight into their areas of expertise and interests.
+
+Skills and Expertise:
+
+- Machine Learning: Karthikeyan appears to have a strong background in machine learning, with repositories related to natural language processing (NLP), computer vision, and deep learning. They have worked on projects involving sentiment analysis, object detection, and image classification using popular frameworks such as TensorFlow and PyTorch.
+
+- Software Development: They possess solid software development skills, particularly in Python programming. Their repositories include projects related to web development, data structures, and algorithms. They also have experience with version control systems like Git and collaboration tools such as GitHub.
+
+- Data Science: Karthikeyan has an interest in data science, as evidenced by their repositories on data analysis, visualization, and machine learning pipelines. They are proficient in using libraries such as NumPy, Pandas, and Matplotlib for data manipulation and exploration.
+
+Experience Level:
+
+- Based on the variety and complexity of their projects, Karthikeyan seems to be an experienced developer and machine learning enthusiast. They have a good understanding of different aspects of the field, from software development practices to advanced machine learning techniques. Their projects demonstrate a practical application of these skills, indicating a level of experience beyond a beginner</div>
+      
+    </div>
+  
+</body>
+</html>
+2025-05-16 10:17:11,231 - 127.0.0.1 - - [16/May/2025 10:17:11] "GET /scrape?q=Adhith HTTP/1.1" 200 -
+2025-05-18 13:06:45,225 -  * Debugger is active!
+2025-05-18 13:06:45,226 -  * Debugger PIN: 950-730-442
+2025-05-18 13:10:03,941 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-18 13:10:03,941 - [33mPress CTRL+C to quit[0m
+2025-05-18 13:10:03,947 -  * Restarting with watchdog (inotify)
+2025-05-18 13:10:04,965 -  * Debugger is active!
+2025-05-18 13:10:04,965 -  * Debugger PIN: 950-730-442
+2025-05-18 13:10:31,592 - REQUEST - GET http://127.0.0.1:5000/scrape?q=Developer | BODY: 
+2025-05-18 13:10:52,621 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:10:58,253 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:11:03,884 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:11:11,665 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:11:17,197 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:11:22,724 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:11:25,488 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:11:30,917 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:11:34,397 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:11:40,954 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:11:46,278 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:11:52,014 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:11:57,628 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:12:01,431 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:12:06,554 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:12:15,974 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:12:22,940 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:12:28,990 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:12:33,175 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:12:38,708 - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 13:12:38,728 - RESPONSE - GET http://127.0.0.1:5000/scrape?q=Developer | STATUS: 200 | TIME: 127.136215s | BODY: <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub User Insights</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      padding: 2rem;
+    }
+    .user-card {
+      background: #fff;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .field {
+      margin: 0.3rem 0;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .profile-url {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .summary {
+      margin-top: 1rem;
+      white-space: pre-wrap;
+    }
+    .error {
+      color: red;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>GitHub User Insights</h1>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> developerrahulofficial</div>
+      <div class="field"><span class="label">Display Name:</span> Developer Rahul</div>
+      <div class="field"><span class="label">Bio:</span> Full Stack Developer👨🏻‍💻
+I dream bug 🪲 and live big 🔥😎</div>
+      <div class="field"><span class="label">Location:</span> New Delhi, India</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/developerrahulofficial" target="_blank">https://github.com/developerrahulofficial</a>
+      </div>
+
+      
+        <div class="summary">Developer Rahul is a Full Stack Developer based in New Delhi, India. His GitHub username is &#34;developerrahulofficial.&#34; In his bio, he describes himself as someone who dreams of bugs (referring to programming errors) and lives with ambition and confidence. While his bio is lighthearted, it also conveys a passion for coding and a willingness to take on challenges.
+
+Rahul&#39;s pinned repositories are not available or accessible, so I cannot comment on his specific projects or contributions. However, based on his profile and self-description, we can make some inferences about his skills and expertise:
+
+- **Full Stack Development:** By identifying as a Full Stack Developer, Rahul suggests that he has a broad range of skills covering both front-end and back-end development. He is likely proficient in various programming languages, frameworks, and web technologies needed to build complete web applications.
+
+- **Experience:** Without specific project details, it&#39;s challenging to determine Rahul&#39;s experience level accurately. However, his confident bio and Full Stack Developer title suggest that he has a good grasp of web development concepts and has likely worked on multiple projects, demonstrating a solid understanding of the field.
+
+- **Technical Expertise:** Rahul&#39;s technical expertise likely spans web development technologies, including HTML, CSS, JavaScript, and related frameworks like React or Angular for front-end development. For back-end development, he may be skilled in languages such as Python, Node.js, or PHP and familiar with</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> developer-guy</div>
+      <div class="field"><span class="label">Display Name:</span> Batuhan Apaydın</div>
+      <div class="field"><span class="label">Bio:</span> 🚀CNCF Ambassador 23 🎖Best Sigstore Evangelist 23 🐳Docker Captain 23 ✍️ CDF Ambassador 23 
+📅 Organizer at DevOpsTr • @cloudnativetr</div>
+      <div class="field"><span class="label">Location:</span> compromised</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/developer-guy" target="_blank">https://github.com/developer-guy</a>
+      </div>
+
+      
+        <div class="summary">Batuhan Apaydın, known as &#34;developer-guy&#34; on GitHub, is a seasoned cloud native and DevOps enthusiast with a strong presence in the open-source community. He holds multiple prestigious titles, including CNCF Ambassador, Docker Captain, and CDF Ambassador, highlighting his expertise and contributions to these technologies. As the Best Sigstore Evangelist in 2023, he is recognized for his advocacy and knowledge in secure software supply chain practices. 
+
+Apaydın is also an organizer for DevOpsTr, indicating experience in community building and a strong network in the DevOps field. His pinned repositories are likely to reflect his interests and expertise in cloud native technologies, containerization (Docker), and DevOps practices. 
+
+Based on the information provided, the key skills inferred for &#34;developer-guy&#34; include:
+
+- Cloud Native Technologies (CNCF): Proficient in cloud native principles and technologies, as evidenced by his ambassador role.
+- Containerization (Docker): Expertise in Docker, as indicated by the Docker Captain title, with a deep understanding of containerization and its ecosystem.
+- DevOps: Strong DevOps culture advocate, skilled in practices and tools that bridge the gap between software development and IT operations.
+- Open Source: Active contributor to open-source projects, as suggested by his involvement with CNCF and CDF.
+- Secure Software Supply Chain: Knowledgeable about secure software development practices, as recognized by the Sigstore Evangelist award.
+
+Overall, Batuhan</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> developerfred</div>
+      <div class="field"><span class="label">Display Name:</span> codingsh</div>
+      <div class="field"><span class="label">Bio:</span> Blockchain Developer, White Hat, Bridge builder and Decentralization specialist
+
+ENS: codingsh.eth
+</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/developerfred" target="_blank">https://github.com/developerfred</a>
+      </div>
+
+      
+        <div class="summary">developerfred, also known as &#34;codingsh,&#34; is a blockchain developer and decentralization specialist, as indicated by their username and bio. They have a strong interest in blockchain technology and its applications, as well as a focus on security (as suggested by the term &#34;White Hat&#34;). 
+
+Skills and Expertise:
+- Blockchain Development: codingsh has expertise in blockchain technology, smart contracts, and decentralized app development. They likely possess a strong understanding of various blockchain platforms and consensus mechanisms.
+- Smart Contract Development: They are skilled in writing secure and robust smart contracts, which are essential for decentralized applications and the execution of agreements on blockchain platforms.
+- Decentralization: With a focus on decentralization, codingsh aims to build distributed systems and applications, promoting privacy, security, and user control.
+- Bridge Building: They are interested in interoperability between different blockchain platforms, hence the term &#34;bridge builder.&#34; This involves designing solutions for data and value transfer between blockchains.
+- Security: As a White Hat, codingsh is likely an ethical hacker who identifies and reports security vulnerabilities in blockchain systems, smart contracts, or web applications.
+
+Experience Level:
+codingsh&#39;s experience level can be estimated as intermediate to advanced. The use of terms like &#34;White Hat&#34; and &#34;Decentralization specialist&#34; suggests a level of expertise and specialization that comes with time and experience in the industry. Their skill set covers a wide range of blockchain-related topics, indicating a comprehensive understanding</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> developernaimul</div>
+      <div class="field"><span class="label">Display Name:</span> Developer Naimul</div>
+      <div class="field"><span class="label">Bio:</span> I&#39;m a professional MERN Stack Developer. Web 
+design &amp; development is my passion, I give full time in development. I love to do this, it’s my life everything.</div>
+      <div class="field"><span class="label">Location:</span> Joypurhat, Rajshahi, Bangladesh</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/developernaimul" target="_blank">https://github.com/developernaimul</a>
+      </div>
+
+      
+        <div class="summary">Developer Naimul is a professional MERN (MongoDB, Express.js, React.js, Node.js) Stack Developer based in Bangladesh. With a passion for web design and development, they have dedicated their full-time efforts to honing their craft. 
+
+Naimul&#39;s main skills include: 
+- Proficiency in the MERN stack, which indicates a strong background in web development, particularly in building dynamic and scalable web applications. 
+- Experience with MongoDB, a NoSQL database, showing an understanding of data storage and management in a non-relational format. 
+- Proficiency in React.js for building interactive and reusable UI components, suggesting a solid grasp of front-end development. 
+- Knowledge of Express.js and Node.js for server-side development, indicating the ability to create robust back-end systems. 
+
+Based on the information provided, Naimul appears to be an experienced developer with a specific focus on the MERN stack. They have likely worked on multiple web development projects, both independently and collaboratively, and have a deep understanding of the tools and technologies required for full-stack development. 
+
+Their technical expertise lies primarily in the JavaScript ecosystem, and they seem to be well-versed in the latest web development frameworks and libraries.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> Developerayo</div>
+      <div class="field"><span class="label">Display Name:</span> Shodipo Ayomide</div>
+      <div class="field"><span class="label">Bio:</span> Web3 • Head of Developer Relations @Nuklai 🛠️ • Full Stack Software • demigod🧎🏽</div>
+      <div class="field"><span class="label">Location:</span> London, United Kingdom</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/Developerayo" target="_blank">https://github.com/Developerayo</a>
+      </div>
+
+      
+        <div class="summary">Shodipo Ayomide, known as &#34;Developerayo&#34; on GitHub, is a skilled Web3 developer and tech enthusiast based in London, UK. With a background in full-stack software development, they have honed their craft to become a proficient developer and the Head of Developer Relations at Nuklai, a Web3 company.
+
+Ayomide&#39;s main skills lie in web development, particularly in the Web3 space, indicating a strong understanding of blockchain technology and its applications. They are well-versed in full-stack development, meaning they can handle both the front-end and back-end aspects of building web applications. Their experience likely spans multiple programming languages and frameworks, such as JavaScript, React, Node.js, and Solidity, given the nature of Web3 development.
+
+In their role as Head of Developer Relations, Ayomide demonstrates their expertise and leadership qualities, acting as a bridge between the development team and external stakeholders. They are responsible for driving developer adoption, fostering community engagement, and advocating for developers&#39; needs within the company. This position requires excellent communication and interpersonal skills, in addition to technical proficiency.
+
+Ayomide&#39;s GitHub profile showcases their interest in demigods and web development tools, as hinted at by their bio. Their pinned repositories, though not available in the provided information, likely contain projects that demonstrate their skills and interests, whether they are personal endeavors or contributions to open-source initiatives.
+
+Overall, Shodipo Ayom</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> Developer-Y</div>
+      <div class="field"><span class="label">Display Name:</span> N/A</div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/Developer-Y" target="_blank">https://github.com/Developer-Y</a>
+      </div>
+
+      
+        <div class="summary">Based on the provided information, the GitHub user &#34;Developer-Y&#34; has chosen to keep their personal details private and has not shared a bio or location on their profile. Therefore, an inference of their skills, experience, and expertise has to be made solely based on their pinned repositories. 
+
+Main Skills and Technical Expertise:
+
+- **Web Development**: The user has a strong focus on web development, particularly on the front-end side. This is evident from the pinned repositories related to HTML/CSS, JavaScript, and React. They seem to have a good understanding of building user interfaces and web applications.
+- **JavaScript Proficiency**: Developer-Y appears to have a solid grasp of JavaScript, as they have pinned repositories related to both vanilla JavaScript and its popular frameworks/libraries like React and Node.js. This suggests a familiarity with building dynamic and interactive web pages, as well as server-side development using Node.js.
+- **Design Implementation**: With repositories related to CSS and UI design, Developer-Y demonstrates an interest and skill in translating design concepts into functional web pages. They seem capable of working with design frameworks like Bootstrap and understand the importance of responsive design.
+- **Version Control**: The user clearly understands the value of version control systems, as evidenced by their use of GitHub to manage and showcase their projects. This is a crucial skill for collaborative development and project management.
+
+Experience Level:
+
+Without any explicit indicators like work experience or contribution history</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> developergtm24</div>
+      <div class="field"><span class="label">Display Name:</span> Goutam prajapat</div>
+      <div class="field"><span class="label">Bio:</span> Hyy my name is goutam prajapat and I am a frontend developer.
+
+#100daysprojects #developergtm</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/developergtm24" target="_blank">https://github.com/developergtm24</a>
+      </div>
+
+      
+        <div class="summary">Goutam prajapat (developergtm24) is a frontend developer with the username developergtm24. Goutam&#39;s bio suggests that they are likely an enthusiast or a beginner in the field, as they participate in #100daysprojects, which often indicates a commitment to consistent learning and improvement. Their technical skills include HTML, CSS, and JavaScript, as these are the fundamental languages for frontend development. Goutam&#39;s experience level seems to be entry-level or early in their career, as their profile lacks specific details about professional experience or complex projects. Their main expertise lies in web development, with a focus on the user interface and user experience.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> DeveloperAcademy-POSTECH</div>
+      <div class="field"><span class="label">Display Name:</span> Developer Academy @ POSTECH</div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> Korea, South</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/DeveloperAcademy-POSTECH" target="_blank">https://github.com/DeveloperAcademy-POSTECH</a>
+      </div>
+
+      
+        <div class="summary">Developer Academy @ POSTECH is a GitHub organization based in South Korea, affiliated with the prestigious POSTECH University. The organization&#39;s focus is on fostering and nurturing the next generation of developers and technologists. 
+
+Their GitHub profile does not include an extensive bio or detailed information about their programs, but their pinned repositories offer some insight into their activities and areas of expertise. 
+
+### Main Skills and Technical Expertise: 
+- **Software Development and Programming Languages**: The organization covers a diverse range of programming languages, including Python, Java, C/C++, and JavaScript. They offer resources and projects for beginners, such as &#34;Hello-World&#34;, indicating a focus on foundational programming skills. 
+- **Web Development**: There is an emphasis on web development, with repositories dedicated to HTML/CSS, JavaScript, and React. They also cover related tools like Git and GitHub, essential for collaborative web development projects. 
+- **Data Science and Machine Learning**: Developer Academy @ POSTECH also delves into data science and machine learning. They provide resources for Python-based data analysis and machine learning with scikit-learn and TensorFlow. This includes tutorials and projects related to image recognition and natural language processing. 
+- **Robotics and Embedded Systems**: There is an interest in robotics and embedded systems, as seen in the &#34;Raspberry-Pi&#34; repository, which likely covers the use of the Raspberry Pi for robotics projects and IoT applications. 
+
+### Experience Level: 
+It is</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> developersancho</div>
+      <div class="field"><span class="label">Display Name:</span> Mr.Sanchez</div>
+      <div class="field"><span class="label">Bio:</span> The Target is Red Apple =) Android &amp; iOS  | Kotlin | Flutter | Swift | KMM
+*** continue as long as we can. living in shadow ***</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/developersancho" target="_blank">https://github.com/developersancho</a>
+      </div>
+
+      
+        <div class="summary">Mr. Sanchez, who goes by the username &#34;developersancho,&#34; is a mobile application developer specializing in Android and iOS development. His main skills include working with Kotlin, Flutter, Swift, and KMM (Kotlin Multiplatform Mobile). He has experience in both Android and iOS development, as indicated by his bio, and is likely proficient in cross-platform development using Flutter and KMM. The reference to &#34;living in shadow&#34; suggests he may have an interest or experience in security or privacy-focused development.
+
+Based on the information provided, it&#39;s difficult to ascertain Mr. Sanchez&#39;s experience level and technical expertise beyond mobile development. However, his pinned repositories, which are not provided here, could offer more insights into his specific projects and areas of expertise within mobile development.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> ShabnamDeveloper</div>
+      <div class="field"><span class="label">Display Name:</span> Shabnam Developer</div>
+      <div class="field"><span class="label">Bio:</span> Fullstack Developer</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/ShabnamDeveloper" target="_blank">https://github.com/ShabnamDeveloper</a>
+      </div>
+
+      
+        <div class="summary">Shabnam Developer, who goes by the username ShabnamDeveloper on GitHub, is a full-stack developer. While their bio provides limited information, their username and pinned repositories offer some insights into their skills and areas of expertise.
+
+Skills and Expertise:
+- Full-Stack Development: Shabnam identifies themselves as a full-stack developer, suggesting they have a broad range of skills covering both front-end and back-end development.
+- Front-End: Shabnam&#39;s pinned repositories indicate a focus on front-end technologies, particularly HTML, CSS, and JavaScript. They have repositories related to web design and development, suggesting experience with creating user interfaces and web applications.
+- Back-End: Although there are no explicit repositories related to back-end development, full-stack developers typically work with server-side technologies as well. Shabnam likely has experience with at least one back-end programming language and framework.
+- Design: The pinned repositories related to web design showcase an interest in UI/UX design principles, suggesting that Shabnam also possesses some design skills in addition to development capabilities.
+
+Experience Level:
+- Based on the information provided, Shabnam appears to be an early-career developer. Their profile lacks details on work experience or contributions to larger projects, which are typically highlighted by more experienced professionals. The focus on web design and front-end technologies could indicate a recent education or self-study in this field.
+
+Technical Expertise:</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> DeveloperLx</div>
+      <div class="field"><span class="label">Display Name:</span> DeveloperLx</div>
+      <div class="field"><span class="label">Bio:</span> 虔虔以待，恳恳于心</div>
+      <div class="field"><span class="label">Location:</span> Beijing, China.</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/DeveloperLx" target="_blank">https://github.com/DeveloperLx</a>
+      </div>
+
+      
+        <div class="summary">DeveloperLx is a GitHub user based in Beijing, China, who appears to be an experienced and skilled software developer. Their profile suggests a strong background in computer science and software engineering.
+
+Skills:
+- Proficient in C/C++ programming, as evidenced by their repository containing C/C++ code examples and solutions to programming problems.
+- Familiarity with data structures and algorithms, demonstrated through their repository containing implementations and explanations.
+- Experience with competitive programming, as suggested by their participation in coding contests and algorithm-related repositories.
+- Knowledge of version control systems, as indicated by their use of GitHub for personal projects and contributions.
+
+Experience Level:
+- DeveloperLx seems to be an experienced developer, likely with several years of industry experience or extensive personal projects. Their repository history dates back several years, indicating a sustained commitment to programming.
+- Their contributions to various repositories and participation in coding contests suggest a proactive approach to learning and problem-solving.
+
+Technical Expertise:
+- Strong foundation in computer science fundamentals, including data structures, algorithms, and programming languages (C/C++ in particular).
+- Expertise in software development, with a focus on coding, debugging, and optimizing solutions.
+- Familiarity with competitive programming and algorithm optimization techniques.
+- Knowledge of version control practices and collaboration tools, such as GitHub.
+
+DeveloperLx&#39;s profile showcases a combination of solid technical skills, practical experience, and a passion for programming and problem-</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> Ramseyxlil</div>
+      <div class="field"><span class="label">Display Name:</span> Developer</div>
+      <div class="field"><span class="label">Bio:</span> Tech and Everything.</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/Ramseyxlil" target="_blank">https://github.com/Ramseyxlil</a>
+      </div>
+
+      
+        <div class="summary">Based on the information provided, here is a summary of the GitHub user &#34;Ramseyxlil&#34;: 
+
+Username: Ramseyxlil
+Name: Developer
+
+Profile Summary: 
+- Ramseyxlil is a developer with a broad interest in technology, as indicated by their bio, &#34;Tech and Everything.&#34; 
+- Their username suggests a connection to the name Ramsey, potentially indicating their actual name or a nickname they use in the developer community. 
+
+Skills and Expertise: 
+- From the information given, it is challenging to determine specific skills or technical expertise. A more comprehensive GitHub repository analysis would be needed to gain deeper insights into their coding abilities and areas of focus. 
+
+Experience Level: 
+- The user&#39;s experience level is unclear. The profile does not include any specific details about their work experience, projects, or contributions. However, their bio suggests they are actively engaged in the tech space and potentially explore various technological areas. 
+
+Technical Specialties: 
+- Without further details or a repository analysis, it is difficult to determine specific technical specialties. A deeper dive into their pinned repositories and contributions would be necessary to understand their preferred programming languages, tools, and technologies they work with, and the types of projects they undertake. 
+
+In summary, Ramseyxlil is a developer with a diverse interest in technology. While their specific skills and expertise are not immediately apparent, a more extensive profile analysis would provide a clearer picture of their technical capabilities and experience level</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> uprockcom</div>
+      <div class="field"><span class="label">Display Name:</span> UpRock</div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/uprockcom" target="_blank">https://github.com/uprockcom</a>
+      </div>
+
+      
+        <div class="summary">UpRock (uprockcom) is a GitHub user who has not provided a personal biography or location, making it challenging to infer specific details about their background and experience level. However, by analyzing their pinned repositories, we can gain some insights into their skills and areas of technical expertise:
+
+- UpRock has a strong interest in web development, particularly in building and deploying web applications. They have pinned repositories related to web frameworks such as Flask and Django, indicating a familiarity with Python-based web development.
+- They appear to have experience with cloud computing platforms, specifically Amazon Web Services (AWS). One of their pinned repositories is related to AWS Lambda, suggesting knowledge of serverless computing and potentially other AWS services.
+- UpRock is likely proficient in front-end web technologies, including HTML, CSS, and JavaScript. They have pinned a repository for a CSS framework, showcasing an interest in designing and styling web interfaces.
+- Version control is clearly an important aspect of their workflow, as they have included a pinned repository for Git-it, a desktop Git client. This suggests that they are comfortable with Git for version control and collaboration.
+- They have also pinned a repository for a command-line interface (CLI) tool, indicating familiarity with the command line and a preference for working in a terminal environment.
+
+Overall, UpRock seems to be an experienced web developer with a strong foundation in Python, web frameworks, cloud computing, and front-end technologies. Their pinned repositories suggest</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> aplus-developer</div>
+      <div class="field"><span class="label">Display Name:</span> Aplus Developer</div>
+      <div class="field"><span class="label">Bio:</span> I love to code. I love you. ❤️ ⚡⚡
+
+
+Coding with @aplus-framework.</div>
+      <div class="field"><span class="label">Location:</span> Internet</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/aplus-developer" target="_blank">https://github.com/aplus-developer</a>
+      </div>
+
+      
+        <div class="summary">Aplus Developer is a GitHub user who goes by the handle &#34;aplus-developer&#34; and has a strong passion for coding. With a bio that reads, &#34;I love to code. I love you,&#34; their enthusiasm for programming is evident. Aplus Developer appears to be an experienced programmer with a solid understanding of the aplus-framework, as indicated by their bio.
+
+Although their location is listed as the &#34;Internet,&#34; suggesting they are part of a global community of developers, their specific geographical location is not disclosed. Their pinned repositories are currently empty, so we cannot draw any conclusions about their specific projects or contributions.
+
+Based on the limited information provided, we can infer that Aplus Developer is an experienced programmer with a strong foundation in the aplus-framework. Their skill set likely includes proficiency in various programming languages and tools, given their stated love for coding. Aplus Developer seems to be an active member of the coding community, eager to share their knowledge and engage with fellow developers.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> developersdigest</div>
+      <div class="field"><span class="label">Display Name:</span> Developers Digest</div>
+      <div class="field"><span class="label">Bio:</span> developers.digest.ai@gmail.com</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/developersdigest" target="_blank">https://github.com/developersdigest</a>
+      </div>
+
+      
+        <div class="summary">Developers Digest is a GitHub user with the email address developers.digest.ai@gmail.com. They have not provided any additional information in their profile, such as a location or a detailed biography. From the username and the email domain, it can be inferred that this user or organization is likely associated with the website developers.digest.ai. 
+
+In terms of skills and expertise, the user has not provided any specific information. However, based on the username and the fact that they have a dedicated GitHub account, it can be assumed that they have at least some experience and interest in software development and coding. 
+
+Without any repositories or contributions associated with this profile, it is challenging to determine the user&#39;s experience level and technical expertise accurately. However, their pinned repositories may provide some insight into the technologies and projects that interest them. Unfortunately, no pinned repositories have been listed in the provided information.
+
+In summary, Developers Digest appears to be a GitHub user related to the website developers.digest.ai, with a focus on software development. Their experience level and technical skills remain unknown without further information or activity on the platform.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> Developer-DAO</div>
+      <div class="field"><span class="label">Display Name:</span> Developer DAO</div>
+      <div class="field"><span class="label">Bio:</span> N/A</div>
+      <div class="field"><span class="label">Location:</span> N/A</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/Developer-DAO" target="_blank">https://github.com/Developer-DAO</a>
+      </div>
+
+      
+        <div class="summary">Developer DAO is a GitHub user with a focus on decentralized autonomous organizations (DAO) and blockchain technology. While their profile lacks a personal biography and location, their username and pinned repositories suggest an interest and involvement in the developer community and decentralized organizations.
+
+Skills:
+- Blockchain Development: Developer DAO&#39;s pinned repositories indicate a strong interest and expertise in blockchain technology. They have pinned repositories related to smart contracts, decentralized applications (dApps), and blockchain frameworks.
+- Smart Contract Development: They have experience with smart contract development, particularly on the Ethereum blockchain. They have pinned repositories related to Solidity development and security best practices.
+- Decentralized Applications (dApps): Developer DAO is knowledgeable about building dApps, which are applications that run on a decentralized network and often interact with blockchain technology. They have pinned repositories related to dApp development frameworks and tools.
+- Web3 and DAO Governance: They have an understanding of Web3 technologies and the principles of DAO governance. Their pinned repositories include projects related to DAO frameworks, tokenomics, and community governance.
+
+Experience Level:
+- Intermediate to Advanced: Based on the nature of the pinned repositories, Developer DAO appears to have an intermediate to advanced level of experience in blockchain development and related technologies. They have a good understanding of smart contracts, dApps, and DAO structures, and are likely actively contributing to projects or leading initiatives in this domain.
+
+Technical Expertise:
+- Blockchain: Developer DAO has a strong technical expertise in blockchain</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> developer-junaid</div>
+      <div class="field"><span class="label">Display Name:</span> Developer Junaid</div>
+      <div class="field"><span class="label">Bio:</span> Full Stack Web Application Developer @ Stay Gold USA | Open Source Contributor </div>
+      <div class="field"><span class="label">Location:</span> Pakistan</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/developer-junaid" target="_blank">https://github.com/developer-junaid</a>
+      </div>
+
+      
+        <div class="summary">Developer Junaid is a Full Stack Web Application Developer based in Pakistan, currently working for Stay Gold USA. From their profile, it seems they have a strong interest and involvement in open-source software development. 
+
+Skills &amp; Expertise: 
+- Full Stack Web Development: Junaid&#39;s profession indicates a comprehensive understanding of both front-end and back-end web development. They are likely skilled in HTML, CSS, JavaScript, and related frameworks for building user interfaces, as well as server-side languages like Node.js, PHP, or Python for backend development. 
+- Open Source Contribution: Junaid actively contributes to open-source projects, suggesting proficiency in version control systems like Git, collaborative development, and community engagement. 
+- Software Engineering: They probably have solid experience in software design, architecture, and best practices, as evidenced by their professional role. 
+
+Experience Level: 
+Junaid&#39;s exact years of experience are not specified, but based on their current role as a full-stack developer and open-source contributions, they are likely an experienced mid-level to senior developer. Their skill set suggests a solid foundation in web development and software engineering principles. 
+
+Technical Expertise: 
+- Web Technologies: Proficiency in HTML, CSS, JavaScript, and related web frameworks like React, Angular, or Vue.js for building dynamic web applications. 
+- Backend Development: Familiarity with server-side languages such as Node.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> developer9998</div>
+      <div class="field"><span class="label">Display Name:</span> Dane &#34;Dev&#34;</div>
+      <div class="field"><span class="label">Bio:</span> Avatar: crowfood.art</div>
+      <div class="field"><span class="label">Location:</span> Canada</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/developer9998" target="_blank">https://github.com/developer9998</a>
+      </div>
+
+      
+        <div class="summary">Dane &#34;Dev,&#34; known on GitHub as developer9998, is a developer based in Canada. They have a mysterious online presence, with a cryptic bio and an avatar that suggests a fascination with obscure art. While their precise experience level is unclear, they appear to be a skilled and active contributor to the GitHub community.
+
+Skills and Expertise:
+
+- Dane appears to have a strong grasp of various programming languages and frameworks, as evidenced by their repository contributions and starred projects. These include Python, JavaScript, React, and HTML/CSS.
+- They have a particular interest in web development, as suggested by their pinned repositories related to web scraping, front-end frameworks, and web application security.
+- Dane also showcases an interest in security and penetration testing, as indicated by their starred projects related to cybersecurity tools and ethical hacking.
+- Additionally, they have experience with version control systems like Git and GitHub, as they actively use the platform for their projects and contributions.
+
+Experience Level:
+
+- Dane&#39;s exact experience level is uncertain, but they appear to be an experienced developer. They have a significant number of repositories, contributions, and starred projects, suggesting a decent level of involvement in the GitHub community.
+- The variety and complexity of the projects they work on indicate a solid understanding of software development concepts and practices.
+
+Technical Expertise:
+
+- Web Development: Dane&#39;s pinned repositories and starred projects indicate a focus on web-related technologies.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> extreme-assistant</div>
+      <div class="field"><span class="label">Display Name:</span> CVMart</div>
+      <div class="field"><span class="label">Bio:</span> 面向视觉算法开发者的极市社区，微信公众号:极市平台（extrememart)</div>
+      <div class="field"><span class="label">Location:</span> Shenzhen,china</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/extreme-assistant" target="_blank">https://github.com/extreme-assistant</a>
+      </div>
+
+      
+        <div class="summary">CVMart (extreme-assistant) is a GitHub user based in Shenzhen, China. They are part of the ExtremeMart community, which focuses on computer vision and visual algorithm development. From their pinned repositories, it seems they have experience in building and deploying computer vision models, particularly for object detection and image segmentation tasks. 
+
+Skills and expertise include:
+- Proficiency in programming languages such as Python, C++, and potentially some Java.
+- Strong knowledge of computer vision algorithms and techniques, including object detection and image segmentation.
+- Experience with deep learning frameworks such as TensorFlow, PyTorch, or Keras.
+- Familiarity with software development tools like Git, Docker, and CI/CD practices.
+- Some knowledge of front-end web development, as they have repositories related to React and Vue.js.
+
+Overall, CVMart appears to be an experienced developer in the field of computer vision with a focus on algorithm development and implementation. They are likely well-versed in industry tools and practices, and actively contribute to open-source projects related to their field.</div>
+      
+    </div>
+  
+    <div class="user-card">
+      <div class="field"><span class="label">GitHub Username:</span> Developer-Ecosystem-Engineering</div>
+      <div class="field"><span class="label">Display Name:</span> N/A</div>
+      <div class="field"><span class="label">Bio:</span> Check out the Apple silicon CPU tuning guide!
+https://developer.apple.com/documentation/apple-silicon/cpu-optimization-guide
+Do something cool with it? @ us !</div>
+      <div class="field"><span class="label">Location:</span> Cupertino, CA</div>
+      <div class="field">
+        <span class="label">Profile URL:</span>
+        <a class="profile-url" href="https://github.com/Developer-Ecosystem-Engineering" target="_blank">https://github.com/Developer-Ecosystem-Engineering</a>
+      </div>
+
+      
+        <div class="summary">The GitHub user &#34;Developer-Ecosystem-Engineering&#34; is based in Cupertino, California, and seems to be either an individual or a team of developers with a strong interest in Apple silicon and CPU optimization. Their profile suggests a moderate to advanced level of technical expertise, with a focus on hardware and low-level software development.
+
+Main Skills and Expertise:
+
+- Apple Silicon: The user has a deep interest in Apple&#39;s custom silicon and its optimization. They have shared a link to Apple&#39;s CPU optimization guide in their bio, suggesting a willingness to explore and experiment with low-level hardware tuning.
+- CPU Optimization: They are knowledgeable about CPU architecture and optimization techniques, as evidenced by their pinned repository, which likely contains projects or guides related to CPU tuning and performance enhancement.
+- Software Development: While their profile doesn&#39;t explicitly mention specific programming languages, the user&#39;s focus on CPU optimization suggests a good understanding of low-level programming and performance-critical code. They may have experience with languages like C, C++, or Assembly.
+- Hardware-Software Interaction: &#34;Developer-Ecosystem-Engineering&#34; understands the interplay between hardware and software, which is crucial for optimizing performance on specific CPU architectures.
+
+Experience Level:
+
+- The user&#39;s location in Cupertino, CA, the headquarters of Apple, Inc., suggests a close connection to the company and its technologies. This could indicate a moderate to high level of industry experience, especially in the Apple</div>
+      
+    </div>
+  
+</body>
+</html>
+2025-05-18 13:12:38,730 - 127.0.0.1 - - [18/May/2025 13:12:38] "GET /scrape?q=Developer HTTP/1.1" 200 -
+2025-05-18 13:12:38,953 - REQUEST - GET http://127.0.0.1:5000/favicon.ico | BODY: 
+2025-05-18 13:12:38,954 - RESPONSE - GET http://127.0.0.1:5000/favicon.ico | STATUS: 404 | TIME: 0.001112s | BODY: <!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+2025-05-18 13:12:38,955 - 127.0.0.1 - - [18/May/2025 13:12:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-18 13:15:23,252 -  * Detected change in '/home/afsal/github_insight_service/app.py', reloading
+2025-05-18 13:15:23,253 -  * Detected change in '/home/afsal/github_insight_service/app.py', reloading
+2025-05-18 13:15:23,262 -  * Detected change in '/home/afsal/github_insight_service/app.py', reloading
+2025-05-18 13:15:24,482 -  * Restarting with watchdog (inotify)
+2025-05-18 13:15:25,613 -  * Debugger is active!
+2025-05-18 13:15:25,613 -  * Debugger PIN: 950-730-442
