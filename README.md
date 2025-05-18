@@ -166,16 +166,6 @@ GET /scrape?q=python+developer
 
 | Route         | Output Format | Use Case                     |
 |---------------|----------------|------------------------------|
-| `/api/scrape` | JSON           | Machine-readable REST API    |
-
-## Project Structure
-
-
-
-
-
-| Route         | Output Format | Use Case                     |
-|---------------|----------------|------------------------------|
 | `/scrape` | JSON           | Machine-readable REST API    |
 
 
